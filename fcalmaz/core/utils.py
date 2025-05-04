@@ -18,6 +18,5 @@ class DataMixin():
             self.extra_context['title'] = self.title_page
 
     def get_mixin_context(self, context, **kwargs):
-        context['menu'] = menu
         context.update(kwargs)
         return context
