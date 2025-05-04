@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     'core',
     'team',
     'events',
+    'users',
 ]
 
 MIDDLEWARE = [
@@ -134,3 +135,10 @@ MEDIA_URL = '/media/'
 
 DEFAULT_TEAM_IMAGE = MEDIA_URL + 'team_photo/main-ico.png'
 DEFAULT_OPPONENT_IMAGE = MEDIA_URL + 'team_photo/default.png'
+DEFAULT_USER_IMAGE = MEDIA_URL + 'user_photo/default-avatar.png'
+
+AUTH_USER_MODEL = 'users.User'
+
+LOGIN_REDIRECT_URL = 'home'
+LOGOUT_REDIRECT_URL = 'home'
+LOGIN_URL = 'users:login'

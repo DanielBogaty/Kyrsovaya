@@ -1,6 +1,5 @@
 from django.contrib import admin
 from django.urls import path, include
-from core import views
 from core.views import page_not_found
 from fcalmaz import settings
 from django.conf.urls.static import static
@@ -10,6 +9,7 @@ urlpatterns = [
     path('', include('core.urls')),
     path('team/', include('team.urls', namespace='team')),
     path('events/', include('events.urls', namespace='events')),
+    path('users/', include('users.urls', namespace='users')),
 ]
 
 
