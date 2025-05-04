@@ -1,0 +1,351 @@
+/* Общие стили */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f9fc; /* Светло-голубой фон */
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Стиль для верхнего меню */
+.header {
+    background-color: #0074d9; /* Ярко-синий цвет */
+    color: white;
+    padding: 15px 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Легкая тень */
+}
+
+.header .mainmenu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.header .mainmenu li {
+    display: inline-block;
+}
+
+.header .mainmenu li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.header .mainmenu li a:hover {
+    text-decoration: underline;
+}
+
+/* Стили для логотипа */
+.header .logo {
+    width: 50px; /* Ширина логотипа */
+    height: 50px; /* Высота логотипа */
+    background-image: url('../images/main-ico.png'); /* Путь к изображению */
+    background-size: cover; /* Обрезка/масштабирование изображения */
+    background-position: center; /* Центрирование изображения */
+    border-radius: 50%; /* Круглый логотип */
+    cursor: pointer; /* Указатель мыши при наведении */
+}
+
+/* Основная область контента */
+.content {
+    flex: 1;
+    padding: 20px;
+    background-color: #e6f7ff; /* Очень светло-голубой фон */
+    overflow-y: auto; /* Для прокрутки, если контент большой */
+}
+
+/* === Контейнер для контента (ограничение ширины) === */
+.content-text {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f8fcfe;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Стили для списка новостей */
+.list-articles {
+    list-style: none; /* Убираем маркеры списка */
+    padding: 0; /* Убираем внутренние отступы */
+}
+
+.list-articles li {
+    margin-bottom: 40px; /* Отступ между новостями */
+    padding: 20px; /* Внутренний отступ внутри новости */
+    border-radius: 8px; /* Скруглённые углы */
+    background-color: #fff; /* Белый фон */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Легкая тень */
+}
+
+.list-articles h2 {
+    font-size: 24px;
+    margin-top: 0; /* Убираем верхний отступ заголовка */
+    color: #333; /* Цвет заголовка */
+}
+
+.list-articles .last {
+    font-size: 14px;
+    color: #777; /* Серый цвет для даты */
+    margin-bottom: 10px; /* Отступ после даты */
+}
+
+.list-articles a {
+    color: #0074d9; /* Синий цвет ссылки */
+    text-decoration: none;
+}
+
+.list-articles a:hover {
+    text-decoration: underline; /* Подчёркивание при наведении */
+}
+
+.list-articles .link-read-post {
+    margin-top: 15px;
+}
+
+.list-articles .link-read-post a {
+    font-weight: bold;
+}
+
+/* === Пагинация / Навигация по страницам === */
+.list-pages {
+    text-align: center;
+    margin: 40px 0;
+}
+
+.list-pages ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: inline-flex;
+    gap: 10px;
+}
+
+.list-pages ul li {
+    display: inline-block;
+    margin: 0;
+}
+
+.list-pages a,
+.list-pages .page-num-selected {
+    display: inline-block;
+    width: 44px;
+    height: 44px;
+    line-height: 44px;
+    text-align: center;
+    font-size: 18px;
+    color: #333;
+    text-decoration: none;
+    border-radius: 50%;
+    border: 1px solid #ddd;
+    transition: all 0.3s ease;
+}
+
+.list-pages a:hover {
+    background-color: #0074d9;
+    color: white;
+    border-color: #0074d9;
+}
+
+.list-pages .page-num-selected {
+    background-color: #0074d9;
+    color: white;
+    border: none;
+    font-weight: bold;
+}
+
+/* Футер */
+.footer {
+    background-color: #0056b3; /* Темно-синий цвет */
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 14px;
+}
+
+/* Стили для карточек игроков */
+.players-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; /* Отступ между карточками */
+    justify-content: center; /* Выравнивание по центру */
+}
+
+.player-card {
+    width: calc(25% - 20px); /* 4 колонки с учетом отступа */
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.player-card:hover {
+    transform: scale(1.05); /* Увеличение при наведении */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.player-card img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.player-info {
+    padding: 10px;
+    text-align: center;
+}
+
+.player-info .position {
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #777;
+    margin-bottom: 5px;
+}
+
+.player-info .name {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+}
+
+.player-card-link {
+    text-decoration: none;
+    color: inherit;
+    display: contents; /* Чтобы не мешало при использовании flex/grid */
+}
+
+/* Макет профиля игрока */
+.player-profile {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 40px;
+    padding: 20px 0;
+}
+
+.profile-details {
+    width: 50%;
+}
+
+.player-image {
+    width: 50%;
+    text-align: center;
+}
+
+.player-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.match-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.match-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #fff;
+    border-radius: 15px;
+    padding: 20px 25px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+}
+
+.match-card:hover {
+    transform: scale(1.01);
+}
+
+.team {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    width: 25%;
+    justify-content: flex-start;
+}
+
+.team.away {
+    justify-content: flex-end;
+    text-align: right;
+}
+
+.team img {
+    width: 35px;
+    height: 35px;
+    object-fit: contain;
+}
+
+.team-name {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.match-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 25%;
+}
+
+.match-date {
+    font-size: 14px;
+    color: #777;
+    margin-bottom: 5px;
+}
+
+.match-score {
+    font-size: 24px;
+    font-weight: bold;
+    color: #000;
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+
+.match-card-link {
+    text-decoration: none;
+    color: inherit;
+    display: contents; /* Чтобы не мешало при использовании flex/grid */
+}
+
+.match-detail {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.team-row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+
+.match-score-detail .score{
+    font-size: 2em;
+    font-weight: bold;
+    color: #000;
+}
+
+.team-name-detail {
+    font-size: 2em;
+    font-weight: 600;
+}
+
+.team-detail img {
+    width: 50px;
+    height: 50px;
+    object-fit: contain;
+}

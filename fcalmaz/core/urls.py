@@ -1,0 +1,9 @@
+from django.contrib import admin
+from django.urls import path, include
+from core import views
+
+urlpatterns = [
+    path('', views.HomePage.as_view(), name='home'),
+    path('news/<slug:news_slug>/', views.ShowNews.as_view(), name='news'),
+    path('about/', views.AboutClub.as_view(), name='about')
+]

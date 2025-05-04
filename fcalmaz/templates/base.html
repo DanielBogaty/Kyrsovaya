@@ -1,0 +1,54 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>{{ title }}</title>
+    <!-- Подключение CSS -->
+    <link type="text/css" href="{% static 'core/css/styles.css' %}" rel="stylesheet" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <link rel="shortcut icon" href="{% static 'core/images/main-ico.png' %}" type="image/x-icon" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <!-- Главное меню -->
+    <header class="header">
+        <nav>
+            <ul id="mainmenu" class="mainmenu">
+                <li class="logo">
+                    <a href="{% url 'home' %}">
+                        <div class="logo"></div>
+                    </a>
+                </li>
+                <!-- Динамическое меню -->
+                {% for m in menu %}
+                    <li><a href="{% url m.url_name %}">{{ m.title }}</a></li>
+                {% endfor %}
+            </ul>
+        </nav>
+        <div class="clear"></div>
+    </header>
+
+    <!-- Основной контент -->
+    <main class="content">
+        <!-- Хлебные крошки -->
+        {% block breadcrumbs %}
+        {% endblock %}
+
+        <!-- Блок контента -->
+        <div class="content-text">
+            {% block content %}
+            {% endblock %}
+        </div>
+
+        <!-- Блок навигации -->
+        {% block navigation %}
+        {% endblock %}
+    </main>
+
+    <!-- Футер -->
+    <footer class="footer">
+        <p>&copy; 2025 Частичное или полное копирование информации с данного сайта для распространения на других ресурсах, в том числе и бумажных, не запрещается.</p>
+    </footer>
+</body>
+</html>

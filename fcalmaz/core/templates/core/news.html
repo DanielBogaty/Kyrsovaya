@@ -1,0 +1,11 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<h1>{{news.title}}</h1>
+
+{% if news.photo %}
+<p><img class="img-article-left" src="{{news.photo.url}}"></p>
+{% endif %}
+
+{{news.content|linebreaks}}
+{% endblock %} 
