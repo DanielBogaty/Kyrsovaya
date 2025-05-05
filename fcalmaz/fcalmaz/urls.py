@@ -10,6 +10,7 @@ urlpatterns = [
     path('team/', include('team.urls', namespace='team')),
     path('events/', include('events.urls', namespace='events')),
     path('users/', include('users.urls', namespace='users')),
+    path('forum/', include('forum.urls', namespace='forum')),
 ]
 
 

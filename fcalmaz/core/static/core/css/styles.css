@@ -395,3 +395,169 @@ body {
     min-width: 200px;
     font-size: 16px;
 }
+
+.article-panel {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px; /* Отступ перед основным контентом */
+}
+
+.article-panel .first {
+    font-size: 14px;
+    color: #777; /* Серый цвет для автора */
+}
+
+.article-panel .last {
+    font-size: 14px;
+    color: #777; /* Серый цвет для даты */
+}
+
+.img-article-left.thumb {
+    float: left; /* Выравнивание изображения слева */
+    margin-right: 15px; /* Отступ справа для текста */
+    margin-bottom: 10px; /* Отступ снизу */
+    width: 150px; /* Ширина миниатюры */
+    height: auto; /* Автоматическая высота */
+    border-radius: 8px; /* Скругленные углы */
+    object-fit: cover; /* Обрезка изображения для сохранения пропорций */
+}
+
+.clear {
+    clear: both; /* Очищает поток */
+}
+
+.content-text {
+    max-width: 800px; /* Максимальная ширина контента */
+    margin: 0 auto; /* Центрирование контента */
+    padding: 20px; /* Внутренний отступ */
+    background-color: #f8fcfe; /* Очень светлый фон */
+    border-radius: 8px; /* Скругленные углы */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Легкая тень */
+}
+
+.forum-page {
+    padding: 20px; /* Внутренний отступ */
+    min-height: 100%; /* Минимальная высота страницы */
+}
+
+.list-articles li {
+    position: relative; /* Для корректного позиционирования внутренних элементов */
+    margin-bottom: 40px; /* Отступ между новостями */
+    padding: 20px; /* Внутренний отступ внутри новости */
+    border-radius: 8px; /* Скругленные углы */
+    background-color: #fff; /* Белый фон */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Легкая тень */
+}
+
+/* Основной серый фон */
+.main-content {
+    background-color: #f8fcfe; /* Серый фон */
+    padding: 40px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px; /* Расстояние между карточками */
+}
+
+/* Белые карточки */
+.post-article {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+.post-comments {
+    background-color: #fff; /* Белый фон */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;;
+}
+
+/* Стили для заголовков */
+.post-article h1,
+.post-comments h2,
+.post-comments h3 {
+    margin-top: 0;
+    color: #333;
+}
+
+/* Стили для кнопки "Отправить" */
+.btn {
+    display: inline-block;
+    padding: 5px 1Ы0px; /* Поля вокруг текста */
+    font-size: 16px;
+    font-weight: bold; /* Жирный шрифт */
+    color: #ffffff; /* Белый текст */
+    background-color: #0074d9; /* Темный фон (можно использовать #2c3e50 или другой тёмный цвет) */
+    border: none; /* Убираем границы */
+    border-radius: 8px; /* Округлённые углы */
+    cursor: pointer; /* Указатель мыши при наведении */
+    transition: background-color 0.3s ease; /* Гладкое изменение фона при наведении */
+}
+
+/* Эффект при наведении */
+.btn:hover {
+    background-color: #2c3e50; /* Слегка более темный фон при наведении */
+}
+
+/* Стили для списка комментариев */
+.comment-list {
+    list-style: none;
+    padding: 0;
+    margin: 10;
+}
+
+.comment {
+    margin-bottom: 20px;
+    padding: 15px;
+    background-color: #f8fcfe;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.comment-header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.comment-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.username {
+    font-weight: bold;
+    color: #333;
+}
+
+.timestamp {
+    font-size: 12px;
+    color: #777;
+}
+
+.comment-body {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #333;
+}
+
+.img-article-left {
+    float: left;
+    margin-right: 15px;
+    margin-bottom: 10px;
+    width: 150px;
+    height: auto;
+    border-radius: 8px;
+    object-fit: cover;
+}

@@ -3,8 +3,8 @@ menu = [
     {'title':'Команда', 'url_name':'team:squad'},
     {'title':'Игры', 'url_name':'events:games'},
     {'title':'Расписание', 'url_name':'events:schedule'},
-    {'title':'Форум', 'url_name':'home'},
     {'title':'О нас', 'url_name':'about'},
+    {'title':'Форум', 'url_name':'forum:forum_home'},
 ]
 
 

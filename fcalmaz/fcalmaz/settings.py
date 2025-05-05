@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     'team',
     'events',
     'users',
+    'forum',
 ]
 
 MIDDLEWARE = [
