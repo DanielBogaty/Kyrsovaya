@@ -14,7 +14,7 @@
                 <li>
                     <div class="article-panel">
                         <p class="first">Автор: {{p.author.username|default:"неизвестен"}}</p>
-                        <p class="last">Дата: {{ p.time_create|date:"d-m-y H:i:s" }}</p>
+                        <p class="last">Дата: {{ p.time_update|date:"d-m-y H:i:s" }}</p>
                     </div>
 
                     {% if p.photo %}

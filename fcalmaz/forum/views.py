@@ -1,6 +1,7 @@
 from django.shortcuts import render, get_object_or_404, redirect
-from django.views.generic import ListView, CreateView, DetailView, View
+from django.views.generic import ListView, CreateView, DetailView, View, UpdateView
 from django.contrib.auth.mixins import LoginRequiredMixin
+from django.urls import reverse
 
 from .models import Post
 from .forms import AddPostForm, AddCommentForm
@@ -54,3 +55,15 @@ class AddComment(LoginRequiredMixin, View):
             comment.author = request.user
             comment.save()
         return redirect('forum:post', post_slug=post.slug)
+
+
+class EditPost(DataMixin, UpdateView):
+    model = Post
+    fields = ['title', 'content', 'photo', 'is_published']
+    template_name = 'forum/addpost.html'
+    title_page = "Редактирование поста"
+    slug_url_kwarg = 'post_slug'
+    slug_field = 'slug'
+
+    def get_absolute_url(self):
+        return reverse('forum:post', kwargs={'post_slug':self.object.slug})

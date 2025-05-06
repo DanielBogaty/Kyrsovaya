@@ -27,6 +27,12 @@
             <div class="post-content">
                 {{ post.content|linebreaks }}
             </div>
+
+            {% if user.is_authenticated and user == post.author %}
+            <div class="edit-post-container">
+                <a href="{% url 'forum:edit_post' post.slug %}" class="edit-button">Редактировать пост</a>
+            </div>
+        {% endif %}
         </div>
 
         <!-- Блок с комментариями -->

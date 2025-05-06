@@ -6,5 +6,5 @@ app_name = "team"
 
 urlpatterns = [
     path('squad/', views.Squad.as_view(), name='squad'),
-    path('player/<slug:slug_player>', views.PlayerInfo.as_view(), name='player'),
+    path('player/<slug:slug_player>/', views.PlayerInfo.as_view(), name='player'),
 ]
