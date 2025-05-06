@@ -14,7 +14,7 @@ class ForumHome(DataMixin, ListView):
     title_page = 'Главная страница форума'
 
     def get_queryset(self):
-        return Post.published.all()
+        return Post.published.all().order_by('-time_update')
     
 
 class AddPost(LoginRequiredMixin, CreateView):
@@ -34,7 +34,7 @@ class ShowPost(DataMixin, DetailView):
     slug_url_kwarg = 'post_slug'
 
     def get_object(self, queryset = None):
-        return get_object_or_404(Post.published, slug=self.kwargs[self.slug_url_kwarg])
+        return get_object_or_404(Post.objects.all(), slug=self.kwargs[self.slug_url_kwarg])
 
     def get_context_data(self, **kwargs):
         context = super().get_context_data(**kwargs)

@@ -7,6 +7,7 @@ from django.contrib.auth.mixins import LoginRequiredMixin
 
 from .forms import LoginUserForm, RegisterUserForm, ProfileUserForm, UserPasswordChangeForm
 import fcalmaz.settings as settings
+from forum.models import Post
 
 
 class LoginUser(LoginView):
@@ -36,6 +37,11 @@ class ProfileUser(LoginRequiredMixin, UpdateView):
     
     def get_object(self, queryset = None):
         return self.request.user
+    
+    def get_context_data(self, **kwargs):
+        context =  super().get_context_data(**kwargs)
+        context['posts'] = Post.objects.filter(author=self.request.user)
+        return context
     
 
 class UserPasswordChange(PasswordChangeView):

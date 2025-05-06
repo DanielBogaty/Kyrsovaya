@@ -483,6 +483,77 @@ body {
     color: #333;
 }
 
+/* Дополнения к существующим стилям */
+.posts-list {
+    margin-top: 2rem;
+    display: grid;
+    gap: 1.5rem;
+}
+
+.post-article h3 {
+    margin-bottom: 15px;
+    font-size: 1.4rem;
+}
+
+.post-article a {
+    color: #333;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.post-article a:hover {
+    color: #007bff;
+}
+
+.post-meta {
+    font-size: 0.9rem;
+    color: #666;
+    margin-top: 15px;
+    display: flex;
+    gap: 20px;
+    border-top: 1px solid #eee;
+    padding-top: 10px;
+}
+
+/* Стили статусов */
+.post-status {
+    font-size: 0.8rem;
+    padding: 3px 8px;
+    border-radius: 12px;
+    margin-left: 10px;
+    vertical-align: middle;
+}
+
+.post-status.published {
+    background-color: #e3fcec;
+    color: #0a6640;
+}
+
+.post-status.draft {
+    background-color: #f8f9fa;
+    color: #5c6873;
+    border: 1px solid #ddd;
+}
+
+/* Разделитель между постами */
+.post-divider {
+    height: 1px;
+    background: #eee;
+    margin: 20px 0;
+}
+
+/* Заголовок поста */
+.post-header {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.post-header h3 {
+    margin: 0;
+}
+
 /* Стили для кнопки "Отправить" */
 .btn {
     display: inline-block;
