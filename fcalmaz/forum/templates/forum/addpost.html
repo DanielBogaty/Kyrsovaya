@@ -15,7 +15,11 @@
         <p><label class="form-label" for="{{ f.id_for_label }}">{{ f.label}}</label>{{ f }}</p>
         <div class="form-error">{{ f.errors}}</div>
     {% endfor %}
-    <!-- {{ form.as_p }} -->
-    <p><button type="submit">Отправить</button></p>
+    <p>
+        <button class="btn-save" type="submit">Сохранить</button>
+        {% if form.instance.pk %}  {# Показываем только при редактировании существующего поста #}
+            <a href="{% url 'forum:delete_post' post_slug=form.instance.slug %}" class="btn-delete">Удалить пост</a>
+        {% endif %}
+    </p>
 </form>
 {% endblock%}

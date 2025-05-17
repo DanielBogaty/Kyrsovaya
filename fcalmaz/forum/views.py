@@ -1,9 +1,9 @@
 from django.shortcuts import render, get_object_or_404, redirect
-from django.views.generic import ListView, CreateView, DetailView, View, UpdateView
+from django.views.generic import ListView, CreateView, DetailView, View, UpdateView, DeleteView
 from django.contrib.auth.mixins import LoginRequiredMixin
 from django.urls import reverse
 
-from .models import Post
+from .models import Post, Comment
 from .forms import AddPostForm, AddCommentForm
 from core.utils import DataMixin
 import fcalmaz.settings as settings
@@ -67,3 +67,36 @@ class EditPost(DataMixin, UpdateView):
 
     def get_absolute_url(self):
         return reverse('forum:post', kwargs={'post_slug':self.object.slug})
+    
+
+class DeletePost(DataMixin, DeleteView):
+    model = Post
+    template_name = 'forum/delete_post.html'
+    slug_url_kwarg = 'post_slug'
+    slug_field = 'slug'
+
+    def get_success_url(self):
+        return reverse('forum:forum_home')
+    
+    def get_context_data(self, **kwargs):
+        context = super().get_context_data(**kwargs)
+        return self.get_mixin_context(context, title = f'Удаление поста: {self.object.title}')
+    
+
+class EditComment(DataMixin, UpdateView):
+    model = Comment
+    form_class = AddCommentForm
+    template_name = 'forum/edit_comment.html'
+    pk_url_kwarg = 'comment_id'
+
+    def get_success_url(self):
+        return reverse('forum:post', kwargs={'post_slug': self.object.post.slug})
+    
+
+class DeleteComment(DataMixin, DeleteView):
+    model = Comment
+    template_name = 'forum/delete_comment.html'
+    pk_url_kwarg = 'comment_id'
+
+    def get_success_url(self):
+        return reverse('forum:post', kwargs={'post_slug': self.object.post.slug})

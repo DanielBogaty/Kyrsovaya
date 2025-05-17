@@ -20,7 +20,7 @@
 
             <!-- Фото поста -->
             {% if post.photo %}
-                <p><img class="img-article-left" src="{{ post.photo.url }}"></p>
+                <p><img class="news-image" src="{{ post.photo.url }}"></p>
             {% endif %}
 
             <!-- Содержание поста -->
@@ -67,6 +67,12 @@
                         </div>
                         <div class="comment-body">
                             <p>{{ comment.content }}</p>
+                            {% if user.is_authenticated and user == comment.author %}
+                            <div class="comment-actions">
+                                <a href="{% url 'forum:edit_comment' comment.id %}" class="btn-save">Редактировать</a>
+                                <a href="{% url 'forum:delete_comment' comment.id %}" class="btn-delete">Удалить</a>
+                            </div>
+                            {% endif %}
                         </div>
                     </li>
                 {% empty %}

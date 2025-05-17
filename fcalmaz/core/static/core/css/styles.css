@@ -91,6 +91,7 @@ body {
     background-color: #f8fcfe;
     border-radius: 8px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    overflow-y: auto;
 }
 
 /* Стили для списка новостей */
@@ -364,7 +365,7 @@ body {
 }
 
 .team-name-detail {
-    font-size: 2em;
+    font-size: 24px;
     font-weight: 600;
 }
 
@@ -557,7 +558,7 @@ body {
 /* Стили для кнопки "Отправить" */
 .btn {
     display: inline-block;
-    padding: 5px 1Ы0px; /* Поля вокруг текста */
+    padding: 5px 10px; /* Поля вокруг текста */
     font-size: 16px;
     font-weight: bold; /* Жирный шрифт */
     color: #ffffff; /* Белый текст */
@@ -566,6 +567,7 @@ body {
     border-radius: 8px; /* Округлённые углы */
     cursor: pointer; /* Указатель мыши при наведении */
     transition: background-color 0.3s ease; /* Гладкое изменение фона при наведении */
+    text-decoration: none;
 }
 
 /* Эффект при наведении */
@@ -654,3 +656,103 @@ body {
     transform: translateY(-1px);
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
 }
+
+/* Стили для изображений новостей */
+.news-image-container {
+    max-width: 100%;
+    margin: 0 0 20px 0;
+    text-align: center;
+}
+
+.news-image {
+    max-width: 100%;
+    height: auto;
+    max-height: 500px; /* Ограничение по высоте */
+    width: auto;
+    border-radius: 4px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    object-fit: contain; /* Сохраняет пропорции */
+    display: inline-block;
+}
+
+/* Для обтекания текстом справа на десктопах */
+@media (min-width: 769px) {
+    .news-image-container {
+        float: left;
+        max-width: 50%;
+        margin: 0 20px 15px 0;
+    }
+    
+    .news-text {
+        overflow: hidden; /* Для обтекания */
+    }
+}
+
+/* Дополнительные ограничения для очень больших экранов */
+@media (min-width: 1200px) {
+    .news-image {
+        max-height: 600px;
+    }
+}
+
+/* Для мобильных устройств */
+@media (max-width: 768px) {
+    .news-image {
+        max-height: 400px;
+    }
+}
+
+/* Стили для кнопки "Отправить" */
+.btn-delete {
+    display: inline-block;
+    padding: 5px 10px; /* Поля вокруг текста */
+    font-size: 16px;
+    font-weight: bold; /* Жирный шрифт */
+    color: #ffffff; /* Белый текст */
+    background-color: #d90000; /* Темный фон (можно использовать #2c3e50 или другой тёмный цвет) */
+    border: none; /* Убираем границы */
+    border-radius: 8px; /* Округлённые углы */
+    cursor: pointer; /* Указатель мыши при наведении */
+    transition: background-color 0.3s ease; /* Гладкое изменение фона при наведении */
+    text-decoration: none;
+}
+
+/* Стили для кнопки "Отправить" */
+.btn-save {
+    display: inline-block;
+    padding: 5px 10px; /* Поля вокруг текста */
+    font-size: 16px;
+    font-weight: bold; /* Жирный шрифт */
+    color: #ffffff; /* Белый текст */
+    background-color: #07d900; /* Темный фон (можно использовать #2c3e50 или другой тёмный цвет) */
+    border: none; /* Убираем границы */
+    border-radius: 8px; /* Округлённые углы */
+    cursor: pointer; /* Указатель мыши при наведении */
+    transition: background-color 0.3s ease; /* Гладкое изменение фона при наведении */
+    text-decoration: none;
+}
+
+.container img {
+        max-width: 100%;
+        height: auto;
+    }
+    
+    /* Специфичные стили для больших изображений */
+    .main-team-photo {
+        max-height: 400px;
+        width: 100%;
+        object-fit: cover;
+    }
+    
+    /* Стили для изображений в тексте */
+    .content-img {
+        max-height: 250px;
+        margin: 20px auto;
+        display: block;
+    }
+    
+    .achievements {
+        background-color: #f8f9fa;
+        padding: 20px;
+        border-radius: 8px;
+    }
