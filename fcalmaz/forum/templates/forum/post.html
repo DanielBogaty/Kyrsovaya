@@ -7,23 +7,19 @@
 {% endblock %}
 
 {% block content %}
-        <!-- Блок со статьей -->
         <div class="post-article">
             <h1>{{ post.title }}</h1>
 
-            <!-- Информация об авторе и времени -->
             <div class="post-meta">
                 <p>Автор: <strong>{{ post.author.username }}</strong></p>
                 <p>Дата создания: {{ post.time_create|date:"d-m-Y H:i:s" }}</p>
                 <p>Последнее изменение: {{ post.time_update|date:"d-m-Y H:i:s" }}</p>
             </div>
 
-            <!-- Фото поста -->
             {% if post.photo %}
                 <p><img class="news-image" src="{{ post.photo.url }}"></p>
             {% endif %}
 
-            <!-- Содержание поста -->
             <div class="post-content">
                 {{ post.content|linebreaks }}
             </div>
@@ -35,9 +31,7 @@
         {% endif %}
         </div>
 
-        <!-- Блок с комментариями -->
         <div class="post-comments">
-            <!-- Форма для добавления комментария -->
             <h2>Добавить комментарий</h2>
             {% if user.is_authenticated %}
                 <form method="post" action="{% url 'forum:add_comment' post.slug %}">
@@ -55,7 +49,7 @@
                 {% for comment in comments %}
                     <li class="comment">
                         <div class="comment-header">
-                            {% if user.photo %}
+                            {% if comment.author.photo %}
                             <img src="{{ comment.author.photo.url }}" alt="{{ comment.author.username }}" class="avatar" />
                             {% else %}
                             <p><img src="{{ default_image }}" alt="{{ comment.author.username }}" class="avatar"></p>

@@ -7,7 +7,6 @@
 
 {% block content %}
 <div class="player-profile">
-    <!-- Левая часть — информация об игроке -->
     <div class="profile-details">
         <h1>{{ player.name }}</h1>
         <p><strong>Позиция:</strong> {{ player.pos.name }}</p>
@@ -32,7 +31,6 @@
         </table>
     </div>
 
-    <!-- Правая часть — фото игрока -->
     <div class="player-image">
         {% if player.photo %}
             <img src="{{ player.photo.url }}" alt="{{ player.name }}">

@@ -1,20 +1,18 @@
-/* Общие стили */
 body {
     margin: 0;
     font-family: Arial, sans-serif;
-    background-color: #f4f9fc; /* Светло-голубой фон */
+    background-color: #f4f9fc;
     color: #333;
     display: flex;
     flex-direction: column;
     min-height: 100vh;
 }
 
-/* Стиль для верхнего меню */
 .header {
-    background-color: #0074d9; /* Ярко-синий цвет */
+    background-color: #0074d9; 
     color: white;
     padding: 15px 20px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Легкая тень */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 .header .mainmenu {
@@ -23,7 +21,7 @@ body {
     margin: 0;
     display: flex;
     align-items: center;
-    gap: 20px; /* Расстояние между элементами */
+    gap: 20px; 
 }
 
 .header .mainmenu li {
@@ -40,12 +38,11 @@ body {
     text-decoration: underline;
 }
 
-/* Блок авторизации (справа) */
 .header .mainmenu .last {
-    margin-left: auto; /* Перемещает элемент вправо */
+    margin-left: auto;
     display: flex;
     align-items: center;
-    gap: 10px; /* Расстояние между ссылками внутри блока авторизации */
+    gap: 10px; 
 }
 
 .header .mainmenu .last a {
@@ -57,33 +54,27 @@ body {
     text-decoration: underline;
 }
 
-/* Форма выхода */
 #logoutForm {
     display: inline;
 }
 
-/* Стили для логотипа */
 .header .logo {
-    width: 50px; /* Ширина логотипа */
-    height: 50px; /* Высота логотипа */
-    background-image: url('../images/main-ico.png'); /* Путь к изображению */
-    background-size: cover; /* Обрезка/масштабирование изображения */
-    background-position: center; /* Центрирование изображения */
-    border-radius: 50%; /* Круглый логотип */
-    cursor: pointer; /* Указатель мыши при наведении */
+    width: 50px;
+    height: 50px;
+    background-image: url('../images/main-ico.png');
+    background-size: cover; 
+    background-position: center; 
+    border-radius: 50%; 
+    cursor: pointer; 
 }
 
-/* Остальные стили остаются без изменений */
-
-/* Основная область контента */
 .content {
     flex: 1;
     padding: 20px;
-    background-color: #e6f7ff; /* Очень светло-голубой фон */
-    overflow-y: auto; /* Для прокрутки, если контент большой */
+    background-color: #e6f7ff; 
+    overflow-y: auto; 
 }
 
-/* === Контейнер для контента (ограничение ширины) === */
 .content-text {
     max-width: 800px;
     margin: 0 auto;
@@ -94,39 +85,38 @@ body {
     overflow-y: auto;
 }
 
-/* Стили для списка новостей */
 .list-articles {
-    list-style: none; /* Убираем маркеры списка */
-    padding: 0; /* Убираем внутренние отступы */
+    list-style: none; 
+    padding: 0; 
 }
 
 .list-articles li {
-    margin-bottom: 40px; /* Отступ между новостями */
-    padding: 20px; /* Внутренний отступ внутри новости */
-    border-radius: 8px; /* Скруглённые углы */
-    background-color: #fff; /* Белый фон */
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Легкая тень */
+    margin-bottom: 40px; 
+    padding: 20px;
+    border-radius: 8px; 
+    background-color: #fff; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
 }
 
 .list-articles h2 {
     font-size: 24px;
-    margin-top: 0; /* Убираем верхний отступ заголовка */
-    color: #333; /* Цвет заголовка */
+    margin-top: 0;
+    color: #333;
 }
 
 .list-articles .last {
     font-size: 14px;
-    color: #777; /* Серый цвет для даты */
-    margin-bottom: 10px; /* Отступ после даты */
+    color: #777; 
+    margin-bottom: 10px; 
 }
 
 .list-articles a {
-    color: #0074d9; /* Синий цвет ссылки */
+    color: #0074d9;
     text-decoration: none;
 }
 
 .list-articles a:hover {
-    text-decoration: underline; /* Подчёркивание при наведении */
+    text-decoration: underline; 
 }
 
 .list-articles .link-read-post {
@@ -137,7 +127,6 @@ body {
     font-weight: bold;
 }
 
-/* === Пагинация / Навигация по страницам === */
 .list-pages {
     text-align: center;
     margin: 40px 0;
@@ -186,23 +175,22 @@ body {
 
 /* Футер */
 .footer {
-    background-color: #0056b3; /* Темно-синий цвет */
+    background-color: #0056b3;
     color: white;
     text-align: center;
     padding: 10px;
     font-size: 14px;
 }
 
-/* Стили для карточек игроков */
 .players-container {
     display: flex;
     flex-wrap: wrap;
-    gap: 20px; /* Отступ между карточками */
-    justify-content: center; /* Выравнивание по центру */
+    gap: 20px; 
+    justify-content: center;
 }
 
 .player-card {
-    width: calc(25% - 20px); /* 4 колонки с учетом отступа */
+    width: calc(25% - 20px);
     background-color: #fff;
     border-radius: 8px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
@@ -211,7 +199,7 @@ body {
 }
 
 .player-card:hover {
-    transform: scale(1.05); /* Увеличение при наведении */
+    transform: scale(1.05);
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 }
 
@@ -242,10 +230,9 @@ body {
 .player-card-link {
     text-decoration: none;
     color: inherit;
-    display: contents; /* Чтобы не мешало при использовании flex/grid */
+    display: contents; 
 }
 
-/* Макет профиля игрока */
 .player-profile {
     display: flex;
     justify-content: space-between;
@@ -340,7 +327,7 @@ body {
 .match-card-link {
     text-decoration: none;
     color: inherit;
-    display: contents; /* Чтобы не мешало при использовании flex/grid */
+    display: contents;
 }
 
 .match-detail {
@@ -401,67 +388,65 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 10px; /* Отступ перед основным контентом */
+    margin-bottom: 10px;
 }
 
 .article-panel .first {
     font-size: 14px;
-    color: #777; /* Серый цвет для автора */
+    color: #777; 
 }
 
 .article-panel .last {
     font-size: 14px;
-    color: #777; /* Серый цвет для даты */
+    color: #777;
 }
 
 .img-article-left.thumb {
-    float: left; /* Выравнивание изображения слева */
-    margin-right: 15px; /* Отступ справа для текста */
-    margin-bottom: 10px; /* Отступ снизу */
-    width: 150px; /* Ширина миниатюры */
-    height: auto; /* Автоматическая высота */
-    border-radius: 8px; /* Скругленные углы */
-    object-fit: cover; /* Обрезка изображения для сохранения пропорций */
+    float: left; 
+    margin-right: 15px;
+    margin-bottom: 10px; 
+    width: 150px; 
+    height: auto; 
+    border-radius: 8px;
+    object-fit: cover; 
 }
 
 .clear {
-    clear: both; /* Очищает поток */
+    clear: both; 
 }
 
 .content-text {
-    max-width: 800px; /* Максимальная ширина контента */
-    margin: 0 auto; /* Центрирование контента */
-    padding: 20px; /* Внутренний отступ */
-    background-color: #f8fcfe; /* Очень светлый фон */
-    border-radius: 8px; /* Скругленные углы */
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Легкая тень */
+    max-width: 800px;  
+    margin: 0 auto;
+    padding: 20px; 
+    background-color: #f8fcfe;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
 }
 
 .forum-page {
-    padding: 20px; /* Внутренний отступ */
-    min-height: 100%; /* Минимальная высота страницы */
+    padding: 20px; 
+    min-height: 100%; 
 }
 
 .list-articles li {
-    position: relative; /* Для корректного позиционирования внутренних элементов */
-    margin-bottom: 40px; /* Отступ между новостями */
-    padding: 20px; /* Внутренний отступ внутри новости */
-    border-radius: 8px; /* Скругленные углы */
-    background-color: #fff; /* Белый фон */
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Легкая тень */
+    position: relative; 
+    margin-bottom: 40px; 
+    padding: 20px;
+    border-radius: 8px; 
+    background-color: #fff; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
 }
 
-/* Основной серый фон */
 .main-content {
-    background-color: #f8fcfe; /* Серый фон */
+    background-color: #f8fcfe;
     padding: 40px;
     border-radius: 8px;
     display: flex;
     flex-direction: column;
-    gap: 30px; /* Расстояние между карточками */
+    gap: 30px; 
 }
 
-/* Белые карточки */
 .post-article {
     background-color: #fff;
     border-radius: 8px;
@@ -469,14 +454,13 @@ body {
     padding: 20px;
 }
 .post-comments {
-    background-color: #fff; /* Белый фон */
+    background-color: #fff; 
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     margin-top: 20px;;
 }
 
-/* Стили для заголовков */
 .post-article h1,
 .post-comments h2,
 .post-comments h3 {
@@ -484,7 +468,6 @@ body {
     color: #333;
 }
 
-/* Дополнения к существующим стилям */
 .posts-list {
     margin-top: 2rem;
     display: grid;
@@ -516,7 +499,6 @@ body {
     padding-top: 10px;
 }
 
-/* Стили статусов */
 .post-status {
     font-size: 0.8rem;
     padding: 3px 8px;
@@ -536,14 +518,12 @@ body {
     border: 1px solid #ddd;
 }
 
-/* Разделитель между постами */
 .post-divider {
     height: 1px;
     background: #eee;
     margin: 20px 0;
 }
 
-/* Заголовок поста */
 .post-header {
     display: flex;
     align-items: baseline;
@@ -555,27 +535,24 @@ body {
     margin: 0;
 }
 
-/* Стили для кнопки "Отправить" */
 .btn {
     display: inline-block;
-    padding: 5px 10px; /* Поля вокруг текста */
+    padding: 5px 10px; 
     font-size: 16px;
-    font-weight: bold; /* Жирный шрифт */
-    color: #ffffff; /* Белый текст */
-    background-color: #0074d9; /* Темный фон (можно использовать #2c3e50 или другой тёмный цвет) */
-    border: none; /* Убираем границы */
-    border-radius: 8px; /* Округлённые углы */
-    cursor: pointer; /* Указатель мыши при наведении */
-    transition: background-color 0.3s ease; /* Гладкое изменение фона при наведении */
+    font-weight: bold; 
+    color: #ffffff;
+    background-color: #0074d9; 
+    border: none; 
+    border-radius: 8px; 
+    cursor: pointer;
+    transition: background-color 0.3s ease;
     text-decoration: none;
 }
 
-/* Эффект при наведении */
 .btn:hover {
-    background-color: #2c3e50; /* Слегка более темный фон при наведении */
+    background-color: #2c3e50; 
 }
 
-/* Стили для списка комментариев */
 .comment-list {
     list-style: none;
     padding: 0;
@@ -657,7 +634,6 @@ body {
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
 }
 
-/* Стили для изображений новостей */
 .news-image-container {
     max-width: 100%;
     margin: 0 0 20px 0;
@@ -667,15 +643,14 @@ body {
 .news-image {
     max-width: 100%;
     height: auto;
-    max-height: 500px; /* Ограничение по высоте */
+    max-height: 500px;
     width: auto;
     border-radius: 4px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    object-fit: contain; /* Сохраняет пропорции */
+    object-fit: contain; 
     display: inline-block;
 }
 
-/* Для обтекания текстом справа на десктопах */
 @media (min-width: 769px) {
     .news-image-container {
         float: left;
@@ -684,51 +659,47 @@ body {
     }
     
     .news-text {
-        overflow: hidden; /* Для обтекания */
+        overflow: hidden; 
     }
 }
 
-/* Дополнительные ограничения для очень больших экранов */
 @media (min-width: 1200px) {
     .news-image {
         max-height: 600px;
     }
 }
 
-/* Для мобильных устройств */
 @media (max-width: 768px) {
     .news-image {
         max-height: 400px;
     }
 }
 
-/* Стили для кнопки "Отправить" */
 .btn-delete {
     display: inline-block;
-    padding: 5px 10px; /* Поля вокруг текста */
+    padding: 5px 10px;
     font-size: 16px;
-    font-weight: bold; /* Жирный шрифт */
-    color: #ffffff; /* Белый текст */
-    background-color: #d90000; /* Темный фон (можно использовать #2c3e50 или другой тёмный цвет) */
-    border: none; /* Убираем границы */
-    border-radius: 8px; /* Округлённые углы */
-    cursor: pointer; /* Указатель мыши при наведении */
-    transition: background-color 0.3s ease; /* Гладкое изменение фона при наведении */
+    font-weight: bold;
+    color: #ffffff; 
+    background-color: #d90000; 
+    border: none; 
+    border-radius: 8px; 
+    cursor: pointer; 
+    transition: background-color 0.3s ease; 
     text-decoration: none;
 }
 
-/* Стили для кнопки "Отправить" */
 .btn-save {
     display: inline-block;
-    padding: 5px 10px; /* Поля вокруг текста */
+    padding: 5px 10px;
     font-size: 16px;
-    font-weight: bold; /* Жирный шрифт */
-    color: #ffffff; /* Белый текст */
-    background-color: #07d900; /* Темный фон (можно использовать #2c3e50 или другой тёмный цвет) */
-    border: none; /* Убираем границы */
-    border-radius: 8px; /* Округлённые углы */
-    cursor: pointer; /* Указатель мыши при наведении */
-    transition: background-color 0.3s ease; /* Гладкое изменение фона при наведении */
+    font-weight: bold; 
+    color: #ffffff; 
+    background-color: #07d900; 
+    border: none; 
+    border-radius: 8px; 
+    cursor: pointer;
+    transition: background-color 0.3s ease; 
     text-decoration: none;
 }
 
@@ -737,14 +708,12 @@ body {
         height: auto;
     }
     
-    /* Специфичные стили для больших изображений */
     .main-team-photo {
         max-height: 400px;
         width: 100%;
         object-fit: cover;
     }
-    
-    /* Стили для изображений в тексте */
+
     .content-img {
         max-height: 250px;
         margin: 20px auto;
