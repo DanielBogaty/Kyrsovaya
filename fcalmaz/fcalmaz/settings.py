@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-+$pf@+xq(pq$p1v%mj9dgzia7-13t4xz!b=_gpc44lzsz@203z
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['127.0.0.1', 'localhost', 'mysite.by']
 
 
 # Application definition
@@ -37,11 +37,13 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'django_extensions',
     'core',
     'team',
     'events',
     'users',
     'forum',
+    'social_django',
 ]
 
 MIDDLEWARE = [
@@ -146,9 +148,29 @@ LOGOUT_REDIRECT_URL = 'home'
 LOGIN_URL = 'users:login'
 
 AUTHENTICATION_BACKENDS = [
+    'social_core.backends.github.GithubOAuth2',
     'django.contrib.auth.backends.ModelBackend',
     'users.authentication.EmailAuthBackend',
 ]
+
+SOCIAL_AUTH_GITHUB_KEY = 'Ov23litSF7ArtAgak1Gx'
+SOCIAL_AUTH_GITHUB_SECRET = '6b3e1729f6d02d6b69962f9d2a00d55472b8bb6a'
+
+SOCIAL_AUTH_GOOGLE_OAUTH2_KEY = '159219642538-li57eof50v1bbb9ukf4qkcv0mcag8kro.apps.googleusercontent.com'
+SOCIAL_AUTH_GOOGLE_OAUTH2_SECRET = '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'
+
+SOCIAL_AUTH_PIPELINE = (
+    'social_core.pipeline.social_auth.social_details',
+    'social_core.pipeline.social_auth.social_uid',
+    'social_core.pipeline.social_auth.auth_allowed',
+    'social_core.pipeline.social_auth.social_user',
+    'social_core.pipeline.user.get_username',
+    'social_core.pipeline.user.create_user',
+    'users.pipeline.new_users_handler',
+    'social_core.pipeline.social_auth.associate_user',
+    'social_core.pipeline.social_auth.load_extra_data',
+    'social_core.pipeline.user.user_details',
+)
 
 EMAIL_BACKEND = "django.core.mail.backends.smtp.EmailBackend"
 

@@ -5,15 +5,29 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "Python Debugger: Django",
+            "name": "Python Debugger: Django (HTTP)",
             "type": "debugpy",
             "request": "launch",
             "args": [
-                "runserver"
+                "runserver",
+                "mysite.by:8000"
+            ],
+            "django": true,
+            "autoStartBrowser": false,
+            "program": "${workspaceFolder}\\fcalmaz\\manage.py"
+        },
+        {
+            "name": "Python Debugger: Django (HTTPS)",
+            "type": "debugpy",
+            "request": "launch",
+            "args": [
+                "runserver_plus",
+                "--cert-file", "cert.crt",
+                "mysite.by:8000"
             ],
             "django": true,
             "autoStartBrowser": false,
             "program": "${workspaceFolder}\\fcalmaz\\manage.py"
         }
-    ]
+    ]    
 }
