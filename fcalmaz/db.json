@@ -1,0 +1,3786 @@
+[
+{
+  "model": "admin.logentry",
+  "pk": 1,
+  "fields": {
+    "action_time": "2025-05-04T13:17:55.492Z",
+    "user": 1,
+    "content_type": 6,
+    "object_id": "2",
+    "object_repr": "hvdfbvjbdckvd",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 2,
+  "fields": {
+    "action_time": "2025-05-05T06:30:16.812Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "2",
+    "object_repr": "Daniel",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 3,
+  "fields": {
+    "action_time": "2025-05-05T06:32:00.712Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "2",
+    "object_repr": "Daniel",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 4,
+  "fields": {
+    "action_time": "2025-05-05T08:24:47.160Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "3",
+    "object_repr": "уамуавмчысысуцывс",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u0421\\u0442\\u0430\\u0442\\u0443\\u0441\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 5,
+  "fields": {
+    "action_time": "2025-05-05T11:00:53.955Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "4",
+    "object_repr": "Комментарий от root к посту \"Почему так плохо сыграли последнюю игру\"",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 6,
+  "fields": {
+    "action_time": "2025-05-05T11:00:59.368Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "3",
+    "object_repr": "Комментарий от root к посту \"Почему так плохо сыграли последнюю игру\"",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 7,
+  "fields": {
+    "action_time": "2025-05-05T11:01:03.125Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "2",
+    "object_repr": "Комментарий от root к посту \"Почему так плохо сыграли последнюю игру\"",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 8,
+  "fields": {
+    "action_time": "2025-05-05T11:01:06.805Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "1",
+    "object_repr": "Комментарий от root к посту \"Почему так плохо сыграли последнюю игру\"",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 9,
+  "fields": {
+    "action_time": "2025-05-15T10:39:15.791Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "1",
+    "object_repr": "Jokin Gabilondo",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 10,
+  "fields": {
+    "action_time": "2025-05-15T10:41:21.486Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "3",
+    "object_repr": "Alfonso Herrero",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 11,
+  "fields": {
+    "action_time": "2025-05-15T10:42:58.703Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "4",
+    "object_repr": "Carlos López",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 12,
+  "fields": {
+    "action_time": "2025-05-15T10:43:53.576Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "5",
+    "object_repr": "Jokin Gabilondo",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 13,
+  "fields": {
+    "action_time": "2025-05-15T10:44:57.920Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "6",
+    "object_repr": "Sergio Pellicer",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 14,
+  "fields": {
+    "action_time": "2025-05-15T10:45:46.853Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "7",
+    "object_repr": "Manolo Sánchez",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 15,
+  "fields": {
+    "action_time": "2025-05-15T10:46:46.055Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "8",
+    "object_repr": "Carlos Francisco",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 16,
+  "fields": {
+    "action_time": "2025-05-15T10:47:27.431Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "9",
+    "object_repr": "Einar Galilea",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 17,
+  "fields": {
+    "action_time": "2025-05-15T10:47:44.803Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "9",
+    "object_repr": "Einar Galilea",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u0412\\u0435\\u0441 (\\u043a\\u0433)\", \"\\u0414\\u0430\\u0442\\u0430 \\u0440\\u043e\\u0436\\u0434\\u0435\\u043d\\u0438\\u044f\", \"\\u041d\\u0430\\u0446\\u0438\\u043e\\u043d\\u0430\\u043b\\u044c\\u043d\\u043e\\u0441\\u0442\\u044c\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 18,
+  "fields": {
+    "action_time": "2025-05-15T10:48:26.427Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "10",
+    "object_repr": "Álex Pastor",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 19,
+  "fields": {
+    "action_time": "2025-05-15T10:49:12.141Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "11",
+    "object_repr": "Víctor García",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 20,
+  "fields": {
+    "action_time": "2025-05-15T10:49:27.661Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "11",
+    "object_repr": "Víctor García",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u041d\\u0430\\u0446\\u0438\\u043e\\u043d\\u0430\\u043b\\u044c\\u043d\\u043e\\u0441\\u0442\\u044c\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 21,
+  "fields": {
+    "action_time": "2025-05-15T10:50:42.223Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "12",
+    "object_repr": "Diego Murillo",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 22,
+  "fields": {
+    "action_time": "2025-05-15T10:51:20.084Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "13",
+    "object_repr": "Dani Rodríguez",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 23,
+  "fields": {
+    "action_time": "2025-05-15T10:52:45.140Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "14",
+    "object_repr": "Nelson Monte",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 24,
+  "fields": {
+    "action_time": "2025-05-15T10:53:17.535Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "15",
+    "object_repr": "Ramón Enríquez",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 25,
+  "fields": {
+    "action_time": "2025-05-15T10:53:57.956Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "16",
+    "object_repr": "Juan Pedro",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 26,
+  "fields": {
+    "action_time": "2025-05-15T10:54:30.708Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "17",
+    "object_repr": "David Larrubia",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 27,
+  "fields": {
+    "action_time": "2025-05-15T10:55:13.258Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "18",
+    "object_repr": "Manu N. Molina",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 28,
+  "fields": {
+    "action_time": "2025-05-15T10:55:51.396Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "19",
+    "object_repr": "Luis Miguel",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 29,
+  "fields": {
+    "action_time": "2025-05-15T10:56:26.990Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "20",
+    "object_repr": "Dani Lorenzo",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 30,
+  "fields": {
+    "action_time": "2025-05-15T10:56:57.663Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "21",
+    "object_repr": "Luca Sangalli",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 31,
+  "fields": {
+    "action_time": "2025-05-15T10:58:05.139Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "22",
+    "object_repr": "Izan Merino",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 32,
+  "fields": {
+    "action_time": "2025-05-15T10:58:54.061Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "23",
+    "object_repr": "Aaron Ochoa",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 33,
+  "fields": {
+    "action_time": "2025-05-15T10:59:51.729Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "24",
+    "object_repr": "Haitam Abaida",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 34,
+  "fields": {
+    "action_time": "2025-05-15T11:00:47.209Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "25",
+    "object_repr": "Roko Baturina",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 35,
+  "fields": {
+    "action_time": "2025-05-15T11:01:24.155Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "26",
+    "object_repr": "Kevin Medina",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 36,
+  "fields": {
+    "action_time": "2025-05-15T11:02:02.078Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "27",
+    "object_repr": "Dionisio Emanuel",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 37,
+  "fields": {
+    "action_time": "2025-05-15T11:02:49.750Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "28",
+    "object_repr": "Yanis Rahmani",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 38,
+  "fields": {
+    "action_time": "2025-05-15T11:03:40.456Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "29",
+    "object_repr": "Julen Lobete",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 39,
+  "fields": {
+    "action_time": "2025-05-15T11:05:03.434Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "30",
+    "object_repr": "Antonio Cordero",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 40,
+  "fields": {
+    "action_time": "2025-05-15T11:07:02.384Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "6",
+    "object_repr": "Sergio Pellicer",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u0424\\u043e\\u0442\\u043e\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 41,
+  "fields": {
+    "action_time": "2025-05-15T11:17:37.580Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "1",
+    "object_repr": "Zenit Saint Petersburg - 2023-08-08",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u0414\\u0430\\u0442\\u0430\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 42,
+  "fields": {
+    "action_time": "2025-05-15T11:26:37.066Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "2",
+    "object_repr": "Динамо - 2023-08-15",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 43,
+  "fields": {
+    "action_time": "2025-05-15T11:27:29.448Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "1",
+    "object_repr": "Зенит - 2023-08-08",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u041f\\u0440\\u043e\\u0442\\u0438\\u0432\\u043d\\u0438\\u043a\", \"\\u0420\\u0430\\u0441\\u043f\\u043e\\u043b\\u043e\\u0436\\u0435\\u043d\\u0438\\u0435\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 44,
+  "fields": {
+    "action_time": "2025-05-15T11:28:00.761Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "3",
+    "object_repr": "Спартак - 2023-08-22",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 45,
+  "fields": {
+    "action_time": "2025-05-15T11:28:51.697Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "4",
+    "object_repr": "Локомотив - 2023-09-12",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 46,
+  "fields": {
+    "action_time": "2025-05-15T11:29:40.566Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "5",
+    "object_repr": "Краснодар - 2023-09-20",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 47,
+  "fields": {
+    "action_time": "2025-05-15T11:30:48.051Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "6",
+    "object_repr": "ЦСКА - 2023-10-01",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 48,
+  "fields": {
+    "action_time": "2025-05-15T11:31:19.553Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "7",
+    "object_repr": "Ростов - 2023-10-15",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 49,
+  "fields": {
+    "action_time": "2025-05-15T11:31:31.786Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "6",
+    "object_repr": "ЦСКА - 2023-10-01",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u041b\\u043e\\u0433\\u043e\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 50,
+  "fields": {
+    "action_time": "2025-05-15T11:32:02.174Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "8",
+    "object_repr": "Урал - 2023-10-22",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 51,
+  "fields": {
+    "action_time": "2025-05-15T11:32:33.164Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "9",
+    "object_repr": "Ахмат - 2023-11-05",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 52,
+  "fields": {
+    "action_time": "2025-05-15T11:33:03.607Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "10",
+    "object_repr": "Сочи - 2023-11-12",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 53,
+  "fields": {
+    "action_time": "2025-05-15T11:33:34.719Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "11",
+    "object_repr": "Рубин - 2023-12-01",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 54,
+  "fields": {
+    "action_time": "2025-05-15T11:34:11.124Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "12",
+    "object_repr": "Крылья Советов - 2023-12-10",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 55,
+  "fields": {
+    "action_time": "2025-05-15T11:34:35.082Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "13",
+    "object_repr": "Оренбург - 2024-02-15",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 56,
+  "fields": {
+    "action_time": "2025-05-15T11:35:00.593Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "14",
+    "object_repr": "Факел - 2024-02-22",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 57,
+  "fields": {
+    "action_time": "2025-05-15T11:35:25.006Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "15",
+    "object_repr": "Балтика - 2024-03-01",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 58,
+  "fields": {
+    "action_time": "2025-05-15T11:36:00.802Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "16",
+    "object_repr": "Пари НН - 2024-03-10",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 59,
+  "fields": {
+    "action_time": "2025-05-15T11:36:23.648Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "17",
+    "object_repr": "Уфа - 2024-03-15",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 60,
+  "fields": {
+    "action_time": "2025-05-15T11:37:05.893Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "18",
+    "object_repr": "Торпедо - 2024-03-22",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 61,
+  "fields": {
+    "action_time": "2025-05-15T11:37:31.773Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "19",
+    "object_repr": "Химки - 2024-04-05",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 62,
+  "fields": {
+    "action_time": "2025-05-15T11:38:16.459Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "20",
+    "object_repr": "Акрон - 2024-04-12",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 63,
+  "fields": {
+    "action_time": "2025-05-16T13:52:35.954Z",
+    "user": 1,
+    "content_type": 6,
+    "object_id": "2",
+    "object_repr": "hvdfbvjbdckvd",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 64,
+  "fields": {
+    "action_time": "2025-05-16T14:09:11.001Z",
+    "user": 1,
+    "content_type": 6,
+    "object_id": "3",
+    "object_repr": "FC Almaz подписал нового нападающего из Бразилии",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 65,
+  "fields": {
+    "action_time": "2025-05-16T14:09:57.549Z",
+    "user": 1,
+    "content_type": 6,
+    "object_id": "4",
+    "object_repr": "Тренерский штаб обновил состав перед новым сезоном",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 66,
+  "fields": {
+    "action_time": "2025-05-16T14:10:41.748Z",
+    "user": 1,
+    "content_type": 6,
+    "object_id": "5",
+    "object_repr": "Победа в товарищеском матче против «Динамо» (3:1)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 67,
+  "fields": {
+    "action_time": "2025-05-16T14:11:23.294Z",
+    "user": 1,
+    "content_type": 6,
+    "object_id": "6",
+    "object_repr": "Клуб открыл новую академию для молодых футболистов",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 68,
+  "fields": {
+    "action_time": "2025-05-16T14:20:43.992Z",
+    "user": 1,
+    "content_type": 6,
+    "object_id": "7",
+    "object_repr": "Капитан команды продлил контракт до 2026 года",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 69,
+  "fields": {
+    "action_time": "2025-05-16T14:21:51.921Z",
+    "user": 1,
+    "content_type": 6,
+    "object_id": "8",
+    "object_repr": "Клуб представил новую экипировку на сезон 2024/25",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 70,
+  "fields": {
+    "action_time": "2025-05-16T14:22:13.701Z",
+    "user": 1,
+    "content_type": 6,
+    "object_id": "9",
+    "object_repr": "Травма основного защитника: срок восстановления — 2 месяца",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 71,
+  "fields": {
+    "action_time": "2025-05-16T14:22:36.953Z",
+    "user": 1,
+    "content_type": 6,
+    "object_id": "10",
+    "object_repr": "FC Almaz вышел в полуфинал Кубка Лиги",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 72,
+  "fields": {
+    "action_time": "2025-05-16T14:22:51.560Z",
+    "user": 1,
+    "content_type": 6,
+    "object_id": "11",
+    "object_repr": "Клуб запустил мобильное приложение для болельщиков",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 73,
+  "fields": {
+    "action_time": "2025-05-16T14:23:06.722Z",
+    "user": 1,
+    "content_type": 6,
+    "object_id": "12",
+    "object_repr": "Легенда клуба вернулся в качестве тренера",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 74,
+  "fields": {
+    "action_time": "2025-05-17T13:41:24.300Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "8",
+    "object_repr": "smkvclksnvnm",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 75,
+  "fields": {
+    "action_time": "2025-05-17T13:41:24.300Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "7",
+    "object_repr": "Отличная игра в кубке страны",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 76,
+  "fields": {
+    "action_time": "2025-05-17T13:41:24.301Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "6",
+    "object_repr": "ewrgvewgbertwbh",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 77,
+  "fields": {
+    "action_time": "2025-05-17T13:41:24.301Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "5",
+    "object_repr": "wedcfefveve",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 78,
+  "fields": {
+    "action_time": "2025-05-17T13:41:24.301Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "4",
+    "object_repr": "wedcfefveve",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 79,
+  "fields": {
+    "action_time": "2025-05-17T13:41:24.301Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "3",
+    "object_repr": "уамуавмчысысуцывс",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 80,
+  "fields": {
+    "action_time": "2025-05-17T13:41:24.301Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "2",
+    "object_repr": "орпОРиСорви",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 81,
+  "fields": {
+    "action_time": "2025-05-17T13:41:24.301Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "1",
+    "object_repr": "Почему так плохо сыграли последнюю игру",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 82,
+  "fields": {
+    "action_time": "2025-05-17T13:41:49.858Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "3",
+    "object_repr": "Dani",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 83,
+  "fields": {
+    "action_time": "2025-05-17T13:41:49.858Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "2",
+    "object_repr": "user1",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 84,
+  "fields": {
+    "action_time": "2025-05-17T14:05:43.088Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "9",
+    "object_repr": "wredvcwedc",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 85,
+  "fields": {
+    "action_time": "2025-05-17T14:23:57.005Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "4",
+    "object_repr": "fan123",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 86,
+  "fields": {
+    "action_time": "2025-05-17T14:24:30.407Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "5",
+    "object_repr": "almaz_fan",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 87,
+  "fields": {
+    "action_time": "2025-05-17T14:25:31.501Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "6",
+    "object_repr": "old_school",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 88,
+  "fields": {
+    "action_time": "2025-05-17T14:25:55.472Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "7",
+    "object_repr": "defender4life",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 89,
+  "fields": {
+    "action_time": "2025-05-17T14:26:12.897Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "8",
+    "object_repr": "tactical_genius",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 90,
+  "fields": {
+    "action_time": "2025-05-17T14:26:28.808Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "9",
+    "object_repr": "frustrated_fan",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 91,
+  "fields": {
+    "action_time": "2025-05-17T14:27:57.439Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "10",
+    "object_repr": "style_guru",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 92,
+  "fields": {
+    "action_time": "2025-05-17T14:28:20.104Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "11",
+    "object_repr": "merch_lover",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 93,
+  "fields": {
+    "action_time": "2025-05-17T14:28:38.872Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "12",
+    "object_repr": "traditionalist",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 94,
+  "fields": {
+    "action_time": "2025-05-17T14:29:10.205Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "13",
+    "object_repr": "ultras_leader",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 95,
+  "fields": {
+    "action_time": "2025-05-17T14:29:24.261Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "14",
+    "object_repr": "away_supporter",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 96,
+  "fields": {
+    "action_time": "2025-05-17T14:29:37.713Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "15",
+    "object_repr": "neutral_fan",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 97,
+  "fields": {
+    "action_time": "2025-05-17T14:29:50.549Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "16",
+    "object_repr": "stadium_critic",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 98,
+  "fields": {
+    "action_time": "2025-05-17T14:30:12.425Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "17",
+    "object_repr": "foodie_fan",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 99,
+  "fields": {
+    "action_time": "2025-05-17T14:30:45.332Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "18",
+    "object_repr": "tech_geek",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 100,
+  "fields": {
+    "action_time": "2025-05-17T14:31:36.690Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "10",
+    "object_repr": "Почему наш клуб не берет молодых игроков из академии",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 101,
+  "fields": {
+    "action_time": "2025-05-17T14:31:55.201Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "11",
+    "object_repr": "Комментарий от away_supporter к посту \"Почему наш клуб не берет молодых игроков из академии\"",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 102,
+  "fields": {
+    "action_time": "2025-05-17T14:32:15.124Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "12",
+    "object_repr": "Комментарий от old_school к посту \"Почему наш клуб не берет молодых игроков из академии\"",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 103,
+  "fields": {
+    "action_time": "2025-05-17T14:32:27.941Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "11",
+    "object_repr": "Комментарий от almaz_fan к посту \"Почему наш клуб не берет молодых игроков из академии\"",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Author\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 104,
+  "fields": {
+    "action_time": "2025-05-17T14:32:35.598Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "10",
+    "object_repr": "Почему наш клуб не берет молодых игроков из академии",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Author\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 105,
+  "fields": {
+    "action_time": "2025-05-17T14:34:53.457Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "11",
+    "object_repr": "Купим ли мы наконец нормального опорника?",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 106,
+  "fields": {
+    "action_time": "2025-05-17T14:35:26.873Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "13",
+    "object_repr": "Комментарий от tactical_genius к посту \"Купим ли мы наконец нормального опорника?\"",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 107,
+  "fields": {
+    "action_time": "2025-05-17T14:35:43.051Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "14",
+    "object_repr": "Комментарий от frustrated_fan к посту \"Купим ли мы наконец нормального опорника?\"",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 108,
+  "fields": {
+    "action_time": "2025-05-17T14:36:14.946Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "12",
+    "object_repr": "А вам нравится новая форма этого сезона?",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 109,
+  "fields": {
+    "action_time": "2025-05-17T14:36:45.752Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "15",
+    "object_repr": "Комментарий от merch_lover к посту \"А вам нравится новая форма этого сезона?\"",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 110,
+  "fields": {
+    "action_time": "2025-05-17T14:36:57.836Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "16",
+    "object_repr": "Комментарий от traditionalist к посту \"А вам нравится новая форма этого сезона?\"",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 111,
+  "fields": {
+    "action_time": "2025-05-17T14:37:26.345Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "13",
+    "object_repr": "Где была наша поддержка на выезде в Питере?",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 112,
+  "fields": {
+    "action_time": "2025-05-17T14:37:50.258Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "17",
+    "object_repr": "Комментарий от away_supporter к посту \"Где была наша поддержка на выезде в Питере?\"",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 113,
+  "fields": {
+    "action_time": "2025-05-17T14:38:02.399Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "18",
+    "object_repr": "Комментарий от neutral_fan к посту \"Где была наша поддержка на выезде в Питере?\"",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 114,
+  "fields": {
+    "action_time": "2025-05-17T14:38:36.529Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "14",
+    "object_repr": "Предложения по улучшению стадиона",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 115,
+  "fields": {
+    "action_time": "2025-05-17T14:38:51.297Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "19",
+    "object_repr": "Комментарий от foodie_fan к посту \"Предложения по улучшению стадиона\"",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 116,
+  "fields": {
+    "action_time": "2025-05-17T14:39:10.686Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "20",
+    "object_repr": "Комментарий от tech_geek к посту \"Предложения по улучшению стадиона\"",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 117,
+  "fields": {
+    "action_time": "2025-06-20T16:02:58.037Z",
+    "user": 1,
+    "content_type": 3,
+    "object_id": "1",
+    "object_repr": "social",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 1,
+  "fields": {
+    "name": "Can add log entry",
+    "content_type": 1,
+    "codename": "add_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 2,
+  "fields": {
+    "name": "Can change log entry",
+    "content_type": 1,
+    "codename": "change_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 3,
+  "fields": {
+    "name": "Can delete log entry",
+    "content_type": 1,
+    "codename": "delete_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 4,
+  "fields": {
+    "name": "Can view log entry",
+    "content_type": 1,
+    "codename": "view_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 5,
+  "fields": {
+    "name": "Can add permission",
+    "content_type": 2,
+    "codename": "add_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 6,
+  "fields": {
+    "name": "Can change permission",
+    "content_type": 2,
+    "codename": "change_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 7,
+  "fields": {
+    "name": "Can delete permission",
+    "content_type": 2,
+    "codename": "delete_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 8,
+  "fields": {
+    "name": "Can view permission",
+    "content_type": 2,
+    "codename": "view_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 9,
+  "fields": {
+    "name": "Can add group",
+    "content_type": 3,
+    "codename": "add_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 10,
+  "fields": {
+    "name": "Can change group",
+    "content_type": 3,
+    "codename": "change_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 11,
+  "fields": {
+    "name": "Can delete group",
+    "content_type": 3,
+    "codename": "delete_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 12,
+  "fields": {
+    "name": "Can view group",
+    "content_type": 3,
+    "codename": "view_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 13,
+  "fields": {
+    "name": "Can add content type",
+    "content_type": 4,
+    "codename": "add_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 14,
+  "fields": {
+    "name": "Can change content type",
+    "content_type": 4,
+    "codename": "change_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 15,
+  "fields": {
+    "name": "Can delete content type",
+    "content_type": 4,
+    "codename": "delete_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 16,
+  "fields": {
+    "name": "Can view content type",
+    "content_type": 4,
+    "codename": "view_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 17,
+  "fields": {
+    "name": "Can add session",
+    "content_type": 5,
+    "codename": "add_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 18,
+  "fields": {
+    "name": "Can change session",
+    "content_type": 5,
+    "codename": "change_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 19,
+  "fields": {
+    "name": "Can delete session",
+    "content_type": 5,
+    "codename": "delete_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 20,
+  "fields": {
+    "name": "Can view session",
+    "content_type": 5,
+    "codename": "view_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 21,
+  "fields": {
+    "name": "Can add Новость",
+    "content_type": 6,
+    "codename": "add_news"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 22,
+  "fields": {
+    "name": "Can change Новость",
+    "content_type": 6,
+    "codename": "change_news"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 23,
+  "fields": {
+    "name": "Can delete Новость",
+    "content_type": 6,
+    "codename": "delete_news"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 24,
+  "fields": {
+    "name": "Can view Новость",
+    "content_type": 6,
+    "codename": "view_news"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 25,
+  "fields": {
+    "name": "Can add Позиция",
+    "content_type": 7,
+    "codename": "add_position"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 26,
+  "fields": {
+    "name": "Can change Позиция",
+    "content_type": 7,
+    "codename": "change_position"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 27,
+  "fields": {
+    "name": "Can delete Позиция",
+    "content_type": 7,
+    "codename": "delete_position"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 28,
+  "fields": {
+    "name": "Can view Позиция",
+    "content_type": 7,
+    "codename": "view_position"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 29,
+  "fields": {
+    "name": "Can add Футболист",
+    "content_type": 8,
+    "codename": "add_player"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 30,
+  "fields": {
+    "name": "Can change Футболист",
+    "content_type": 8,
+    "codename": "change_player"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 31,
+  "fields": {
+    "name": "Can delete Футболист",
+    "content_type": 8,
+    "codename": "delete_player"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 32,
+  "fields": {
+    "name": "Can view Футболист",
+    "content_type": 8,
+    "codename": "view_player"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 33,
+  "fields": {
+    "name": "Can add Матч",
+    "content_type": 9,
+    "codename": "add_match"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 34,
+  "fields": {
+    "name": "Can change Матч",
+    "content_type": 9,
+    "codename": "change_match"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 35,
+  "fields": {
+    "name": "Can delete Матч",
+    "content_type": 9,
+    "codename": "delete_match"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 36,
+  "fields": {
+    "name": "Can view Матч",
+    "content_type": 9,
+    "codename": "view_match"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 37,
+  "fields": {
+    "name": "Can add user",
+    "content_type": 10,
+    "codename": "add_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 38,
+  "fields": {
+    "name": "Can change user",
+    "content_type": 10,
+    "codename": "change_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 39,
+  "fields": {
+    "name": "Can delete user",
+    "content_type": 10,
+    "codename": "delete_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 40,
+  "fields": {
+    "name": "Can view user",
+    "content_type": 10,
+    "codename": "view_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 41,
+  "fields": {
+    "name": "Can add Пост",
+    "content_type": 11,
+    "codename": "add_post"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 42,
+  "fields": {
+    "name": "Can change Пост",
+    "content_type": 11,
+    "codename": "change_post"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 43,
+  "fields": {
+    "name": "Can delete Пост",
+    "content_type": 11,
+    "codename": "delete_post"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 44,
+  "fields": {
+    "name": "Can view Пост",
+    "content_type": 11,
+    "codename": "view_post"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 45,
+  "fields": {
+    "name": "Can add comment",
+    "content_type": 12,
+    "codename": "add_comment"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 46,
+  "fields": {
+    "name": "Can change comment",
+    "content_type": 12,
+    "codename": "change_comment"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 47,
+  "fields": {
+    "name": "Can delete comment",
+    "content_type": 12,
+    "codename": "delete_comment"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 48,
+  "fields": {
+    "name": "Can view comment",
+    "content_type": 12,
+    "codename": "view_comment"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 49,
+  "fields": {
+    "name": "Can add association",
+    "content_type": 13,
+    "codename": "add_association"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 50,
+  "fields": {
+    "name": "Can change association",
+    "content_type": 13,
+    "codename": "change_association"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 51,
+  "fields": {
+    "name": "Can delete association",
+    "content_type": 13,
+    "codename": "delete_association"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 52,
+  "fields": {
+    "name": "Can view association",
+    "content_type": 13,
+    "codename": "view_association"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 53,
+  "fields": {
+    "name": "Can add code",
+    "content_type": 14,
+    "codename": "add_code"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 54,
+  "fields": {
+    "name": "Can change code",
+    "content_type": 14,
+    "codename": "change_code"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 55,
+  "fields": {
+    "name": "Can delete code",
+    "content_type": 14,
+    "codename": "delete_code"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 56,
+  "fields": {
+    "name": "Can view code",
+    "content_type": 14,
+    "codename": "view_code"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 57,
+  "fields": {
+    "name": "Can add nonce",
+    "content_type": 15,
+    "codename": "add_nonce"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 58,
+  "fields": {
+    "name": "Can change nonce",
+    "content_type": 15,
+    "codename": "change_nonce"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 59,
+  "fields": {
+    "name": "Can delete nonce",
+    "content_type": 15,
+    "codename": "delete_nonce"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 60,
+  "fields": {
+    "name": "Can view nonce",
+    "content_type": 15,
+    "codename": "view_nonce"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 61,
+  "fields": {
+    "name": "Can add user social auth",
+    "content_type": 16,
+    "codename": "add_usersocialauth"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 62,
+  "fields": {
+    "name": "Can change user social auth",
+    "content_type": 16,
+    "codename": "change_usersocialauth"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 63,
+  "fields": {
+    "name": "Can delete user social auth",
+    "content_type": 16,
+    "codename": "delete_usersocialauth"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 64,
+  "fields": {
+    "name": "Can view user social auth",
+    "content_type": 16,
+    "codename": "view_usersocialauth"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 65,
+  "fields": {
+    "name": "Can add partial",
+    "content_type": 17,
+    "codename": "add_partial"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 66,
+  "fields": {
+    "name": "Can change partial",
+    "content_type": 17,
+    "codename": "change_partial"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 67,
+  "fields": {
+    "name": "Can delete partial",
+    "content_type": 17,
+    "codename": "delete_partial"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 68,
+  "fields": {
+    "name": "Can view partial",
+    "content_type": 17,
+    "codename": "view_partial"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 69,
+  "fields": {
+    "name": "Social Auth",
+    "content_type": 10,
+    "codename": "social_auth"
+  }
+},
+{
+  "model": "auth.group",
+  "pk": 1,
+  "fields": {
+    "name": "social",
+    "permissions": [
+      69
+    ]
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 1,
+  "fields": {
+    "app_label": "admin",
+    "model": "logentry"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 2,
+  "fields": {
+    "app_label": "auth",
+    "model": "permission"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 3,
+  "fields": {
+    "app_label": "auth",
+    "model": "group"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 4,
+  "fields": {
+    "app_label": "contenttypes",
+    "model": "contenttype"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 5,
+  "fields": {
+    "app_label": "sessions",
+    "model": "session"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 6,
+  "fields": {
+    "app_label": "core",
+    "model": "news"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 7,
+  "fields": {
+    "app_label": "team",
+    "model": "position"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 8,
+  "fields": {
+    "app_label": "team",
+    "model": "player"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 9,
+  "fields": {
+    "app_label": "events",
+    "model": "match"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 10,
+  "fields": {
+    "app_label": "users",
+    "model": "user"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 11,
+  "fields": {
+    "app_label": "forum",
+    "model": "post"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 12,
+  "fields": {
+    "app_label": "forum",
+    "model": "comment"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 13,
+  "fields": {
+    "app_label": "social_django",
+    "model": "association"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 14,
+  "fields": {
+    "app_label": "social_django",
+    "model": "code"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 15,
+  "fields": {
+    "app_label": "social_django",
+    "model": "nonce"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 16,
+  "fields": {
+    "app_label": "social_django",
+    "model": "usersocialauth"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 17,
+  "fields": {
+    "app_label": "social_django",
+    "model": "partial"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "1215zx0svvb4ohmhgpo88iuizc7wosiw",
+  "fields": {
+    "session_data": ".eJxVjEEOwiAQRe_C2pAOOG1x6d4zkBkGpGogKe3KeHdD0oVu_3vvv5Wnfct-b3H1i6iLAnX63ZjCM5YO5EHlXnWoZVsX1l3RB236ViW-rof7d5Cp5V4DJIozM1FAOzlxiedpTGIjDCaZyM6C2OAssshoEw4mCLDBMxpxqD5fEmc4jA:1uDfDt:cJ5UfhvLkjA9MFaFzsTpJKIYRxIjZdYCfesbHFf8J94",
+    "expire_date": "2025-05-24T08:06:17.659Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "1yle0orwkrac3veu74zqsf33j79tngbw",
+  "fields": {
+    "session_data": ".eJxVjEEOwiAQRe_C2pAOOG1x6d4zkBkGpGogKe3KeHdD0oVu_3vvv5Wnfct-b3H1i6iLAnX63ZjCM5YO5EHlXnWoZVsX1l3RB236ViW-rof7d5Cp5V4DJIozM1FAOzlxiedpTGIjDCaZyM6C2OAssshoEw4mCLDBMxpxqD5fEmc4jA:1uBpKL:eYsrmR026ciAFl7ItPlccpT6QjjKcv3a722ligWynTE",
+    "expire_date": "2025-05-19T06:29:21.015Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "4dbm0mcydiar3pmf9kvhc9rgymuylq24",
+  "fields": {
+    "session_data": ".eJxVjDsOwjAQBe_iGlnJ2usPJX3OEK13DQ4gR4qTCnF3iJQC2jcz76VG2tYybi0v4yTqrECdfrdE_Mh1B3Kneps1z3VdpqR3RR-06WGW_Lwc7t9BoVa-tXMeECyy6UyHEFJkMjkwR7bgs0AfCcX3Bl1nrz4GiwmclZAZjSNR7w-zLDbu:1uBaGU:pYiVqkRraMzeFiOgpp5qM43wgUe-cRG4CGnLM0B0IOs",
+    "expire_date": "2025-05-18T14:24:22.091Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "atv7lhhwtpxsc8vfs0holuek65h4905w",
+  "fields": {
+    "session_data": ".eJxVjLsOgkAUBf9la7PZlyxrac83kPsU1EDCQmX8dyWh0PbMzHmZHrZ16LcqSz-yuRhfzOl3RKCHTDvhO0y32dI8rcuIdlfsQavtZpbn9XD_Dgaow7dGJw2TupICS-CkPkZBDb6Bc5AAmIlKVA8SW-VEGb1rcyZwGcWTmvcHM405RQ:1uHdBg:W5j_zTx0FymGiHPj0FmhYkuN25LRk9JGWXuMgxOSmUM",
+    "expire_date": "2025-06-04T06:44:24.078Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "doqwmuy4bu1mj7ft30yh62btgsikvjyr",
+  "fields": {
+    "session_data": ".eJxVjEEOwiAQRe_C2pAOOG1x6d4zkBkGpGogKe3KeHdD0oVu_3vvv5Wnfct-b3H1i6iLAnX63ZjCM5YO5EHlXnWoZVsX1l3RB236ViW-rof7d5Cp5V4DJIozM1FAOzlxiedpTGIjDCaZyM6C2OAssshoEw4mCLDBMxpxqD5fEmc4jA:1uCeio:2tTaAgz6RLM0JPw4LsIVjKYW7RkfPN9D5PpErg3ZTP0",
+    "expire_date": "2025-05-21T13:22:02.407Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "ehf4raqlm4h3y2xcxetoil0k24x4z74n",
+  "fields": {
+    "session_data": ".eJxVjEEOwiAQRe_C2pAOOG1x6d4zkBkGpGogKe3KeHdD0oVu_3vvv5Wnfct-b3H1i6iLAnX63ZjCM5YO5EHlXnWoZVsX1l3RB236ViW-rof7d5Cp5V4DJIozM1FAOzlxiedpTGIjDCaZyM6C2OAssshoEw4mCLDBMxpxqD5fEmc4jA:1uCK3t:Q2mXj-1IHTTz7bM6LCSGYcgiCwnxLbxKY-NIcbQF-3o",
+    "expire_date": "2025-05-20T15:18:25.034Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "o2sewqgmb6j7elg5m7jclprm7httu9ps",
+  "fields": {
+    "session_data": ".eJxVjEEOwiAQRe_C2pAOOG1x6d4zkBkGpGogKe3KeHdD0oVu_3vvv5Wnfct-b3H1i6iLAnX63ZjCM5YO5EHlXnWoZVsX1l3RB236ViW-rof7d5Cp5V4DJIozM1FAOzlxiedpTGIjDCaZyM6C2OAssshoEw4mCLDBMxpxqD5fEmc4jA:1uBq4i:PVcG7kIZm4Ci_DZm5c1CDsS1i2ANMSTZwcyLkCS_NQ8",
+    "expire_date": "2025-05-19T07:17:16.165Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "wtjqjdovru9evm66n5z09o4k0qsi3sk4",
+  "fields": {
+    "session_data": "eyJnaXRodWJfc3RhdGUiOiJ4TzlVc0tyT1NEVUJJbzhKZzQzMGV6c2ozMVBLdGs5MCJ9:1uSd3l:cOaAXDgEIJJrbHQeSB1jzuSTtsEnog3riJNdDYdMDiU",
+    "expire_date": "2025-07-04T14:49:41.882Z"
+  }
+},
+{
+  "model": "core.news",
+  "pk": 3,
+  "fields": {
+    "title": "FC Almaz подписал нового нападающего из Бразилии",
+    "slug": "fc-almaz-podpisal-novogo-napadayushchego-iz-brazilii",
+    "photo": "news_photo/25/05/16/Лукас_Рибейро.jpg",
+    "content": "Клуб объявляет о подписании контракта с бразильским нападающим Лукас Рибейро. Игрок подписал контракт на 3 года и уже присоединился к команде на предсезонных сборах.",
+    "time_create": "2025-05-16T14:09:10.998Z"
+  }
+},
+{
+  "model": "core.news",
+  "pk": 4,
+  "fields": {
+    "title": "Тренерский штаб обновил состав перед новым сезоном",
+    "slug": "trenerskiy-shtab-obnovil-sostav-pered-novym-sezonom",
+    "photo": "",
+    "content": "Главный тренер Игорь Петров представил обновленный состав команды. В клуб пришли 5 новых игроков, включая вратаря Артёма Соколова и полузащитника Дмитрия Ковалёва.",
+    "time_create": "2025-05-16T14:09:57.546Z"
+  }
+},
+{
+  "model": "core.news",
+  "pk": 5,
+  "fields": {
+    "title": "Победа в товарищеском матче против «Динамо» (3:1)",
+    "slug": "pobeda-v-tovarishcheskom-matche-protiv-dinamo-3-1",
+    "photo": "news_photo/25/05/16/3_-_1.jpg",
+    "content": "FC Almaz одержал уверенную победу в контрольной игре. Голы забили Сергей Иванов (2) и Алексей Морозов.",
+    "time_create": "2025-05-16T14:10:41.745Z"
+  }
+},
+{
+  "model": "core.news",
+  "pk": 6,
+  "fields": {
+    "title": "Клуб открыл новую академию для молодых футболистов",
+    "slug": "klub-otkryl-novuyu-akademiyu-dlya-molodyh-futbolistov",
+    "photo": "news_photo/25/05/16/Академия.webp",
+    "content": "FC Almaz запустил футбольную академию для детей от 6 до 16 лет. Первые тренировки начнутся уже в следующем месяце.",
+    "time_create": "2025-05-16T14:11:23.290Z"
+  }
+},
+{
+  "model": "core.news",
+  "pk": 7,
+  "fields": {
+    "title": "Капитан команды продлил контракт до 2026 года",
+    "slug": "kapitan-komandy-prodlil-kontrakt-do-2026-goda",
+    "photo": "",
+    "content": "Андрей Смирнов, капитан FC Almaz, подписал новый контракт на 3 года. Игрок заявил, что хочет закончить карьеру в этом клубе.",
+    "time_create": "2025-05-16T14:20:43.990Z"
+  }
+},
+{
+  "model": "core.news",
+  "pk": 8,
+  "fields": {
+    "title": "Клуб представил новую экипировку на сезон 2024/25",
+    "slug": "klub-predstavil-novuyu-ekipirovku-na-sezon-2024-25",
+    "photo": "news_photo/25/05/16/Экипировка.jpg",
+    "content": "Официальный спонсор Adidas представил новую форму для команды. Основные цвета — синий и белый, с золотыми акцентами.",
+    "time_create": "2025-05-16T14:21:51.917Z"
+  }
+},
+{
+  "model": "core.news",
+  "pk": 9,
+  "fields": {
+    "title": "Травма основного защитника: срок восстановления — 2 месяца",
+    "slug": "travma-osnovnogo-zashchitnika-srok-vosstanovleniya-2-mesyatsa",
+    "photo": "",
+    "content": "Иван Белов получил травму в матче против «Спартака». Врачи диагностировали повреждение связок и назначили реабилитацию.",
+    "time_create": "2025-05-16T14:22:13.698Z"
+  }
+},
+{
+  "model": "core.news",
+  "pk": 10,
+  "fields": {
+    "title": "FC Almaz вышел в полуфинал Кубка Лиги",
+    "slug": "fc-almaz-vyshel-v-polufinal-kubka-ligi",
+    "photo": "news_photo/25/05/16/кубок.jpg",
+    "content": "После победы над «Локомотивом» (2:0) команда впервые в истории вышла в полуфинал Кубка Лиги.",
+    "time_create": "2025-05-16T14:22:36.950Z"
+  }
+},
+{
+  "model": "core.news",
+  "pk": 11,
+  "fields": {
+    "title": "Клуб запустил мобильное приложение для болельщиков",
+    "slug": "klub-zapustil-mobilnoe-prilozhenie-dlya-bolelshchikov",
+    "photo": "",
+    "content": "Новое приложение FC Almaz Official позволит следить за матчами в реальном времени, покупать билеты и участвовать в опросах.",
+    "time_create": "2025-05-16T14:22:51.557Z"
+  }
+},
+{
+  "model": "core.news",
+  "pk": 12,
+  "fields": {
+    "title": "Легенда клуба вернулся в качестве тренера",
+    "slug": "legenda-kluba-vernulsya-v-kachestve-trenera",
+    "photo": "",
+    "content": "Александр Попов, бывший капитан FC Almaz, вошёл в тренерский штаб. Он будет отвечать за работу с полузащитниками.",
+    "time_create": "2025-05-16T14:23:06.719Z"
+  }
+},
+{
+  "model": "team.player",
+  "pk": 3,
+  "fields": {
+    "name": "Alfonso Herrero",
+    "slug": "alfonso-herrero",
+    "photo": "player_photo/25/05/15/Alfonso_Herrero.webp",
+    "pos": 1,
+    "height": 183,
+    "weight": 78,
+    "birth_date": "1994-04-21",
+    "nationality": "Spain"
+  }
+},
+{
+  "model": "team.player",
+  "pk": 4,
+  "fields": {
+    "name": "Carlos López",
+    "slug": "carlos-lopez",
+    "photo": "player_photo/25/05/15/Carlos_López_.webp",
+    "pos": 1,
+    "height": 183,
+    "weight": 64,
+    "birth_date": "2004-11-13",
+    "nationality": "Spain"
+  }
+},
+{
+  "model": "team.player",
+  "pk": 5,
+  "fields": {
+    "name": "Jokin Gabilondo",
+    "slug": "jokin-gabilondo",
+    "photo": "player_photo/25/05/15/Jokin_Gabilondo.webp",
+    "pos": 2,
+    "height": 176,
+    "weight": 71,
+    "birth_date": "1999-04-09",
+    "nationality": "Spain"
+  }
+},
+{
+  "model": "team.player",
+  "pk": 6,
+  "fields": {
+    "name": "Sergio Pellicer",
+    "slug": "sergio-pellicer",
+    "photo": "player_photo/25/05/15/Sergio_Pellicer.webp",
+    "pos": 5,
+    "height": null,
+    "weight": null,
+    "birth_date": "1973-09-09",
+    "nationality": "Spain"
+  }
+},
+{
+  "model": "team.player",
+  "pk": 7,
+  "fields": {
+    "name": "Manolo Sánchez",
+    "slug": "manolo-sanchez",
+    "photo": "player_photo/25/05/15/Manolo_Sánchez.webp",
+    "pos": 5,
+    "height": null,
+    "weight": null,
+    "birth_date": "1991-11-18",
+    "nationality": "Spain"
+  }
+},
+{
+  "model": "team.player",
+  "pk": 8,
+  "fields": {
+    "name": "Carlos Francisco",
+    "slug": "carlos-francisco",
+    "photo": "player_photo/25/05/15/Carlos_Francisco.webp",
+    "pos": 2,
+    "height": 175,
+    "weight": 70,
+    "birth_date": "2000-11-26",
+    "nationality": "Spain"
+  }
+},
+{
+  "model": "team.player",
+  "pk": 9,
+  "fields": {
+    "name": "Einar Galilea",
+    "slug": "einar-galilea",
+    "photo": "player_photo/25/05/15/Einar_Galilea.webp",
+    "pos": 2,
+    "height": 185,
+    "weight": 73,
+    "birth_date": "1995-05-22",
+    "nationality": "Spain"
+  }
+},
+{
+  "model": "team.player",
+  "pk": 10,
+  "fields": {
+    "name": "Álex Pastor",
+    "slug": "alex-pastor",
+    "photo": "player_photo/25/05/15/Álex_Pastor.webp",
+    "pos": 2,
+    "height": 185,
+    "weight": 79,
+    "birth_date": "1999-10-01",
+    "nationality": "Spain"
+  }
+},
+{
+  "model": "team.player",
+  "pk": 11,
+  "fields": {
+    "name": "Víctor García",
+    "slug": "victor-garcia",
+    "photo": "player_photo/25/05/15/Víctor_García.webp",
+    "pos": 2,
+    "height": 180,
+    "weight": 75,
+    "birth_date": "1994-05-31",
+    "nationality": "Spain"
+  }
+},
+{
+  "model": "team.player",
+  "pk": 12,
+  "fields": {
+    "name": "Diego Murillo",
+    "slug": "diego-murillo",
+    "photo": "player_photo/25/05/15/Diego_Murillo.png",
+    "pos": 2,
+    "height": 179,
+    "weight": 75,
+    "birth_date": "2001-03-14",
+    "nationality": "Spain"
+  }
+},
+{
+  "model": "team.player",
+  "pk": 13,
+  "fields": {
+    "name": "Dani Rodríguez",
+    "slug": "dani-rodriguez",
+    "photo": "player_photo/25/05/15/Dani_Sánchez.webp",
+    "pos": 2,
+    "height": 171,
+    "weight": 66,
+    "birth_date": "2000-01-14",
+    "nationality": "Spain"
+  }
+},
+{
+  "model": "team.player",
+  "pk": 14,
+  "fields": {
+    "name": "Nelson Monte",
+    "slug": "nelson-monte",
+    "photo": "player_photo/25/05/15/Nelson_Monte.webp",
+    "pos": 2,
+    "height": 187,
+    "weight": 77,
+    "birth_date": "1995-07-30",
+    "nationality": "Portugal"
+  }
+},
+{
+  "model": "team.player",
+  "pk": 15,
+  "fields": {
+    "name": "Ramón Enríquez",
+    "slug": "ramon-enriquez",
+    "photo": "player_photo/25/05/15/Ramón_Enríquez.webp",
+    "pos": 3,
+    "height": 173,
+    "weight": 68,
+    "birth_date": "2001-04-19",
+    "nationality": "Spain"
+  }
+},
+{
+  "model": "team.player",
+  "pk": 16,
+  "fields": {
+    "name": "Juan Pedro",
+    "slug": "juan-pedro",
+    "photo": "player_photo/25/05/15/Juan_Pedro.png",
+    "pos": 3,
+    "height": 184,
+    "weight": 77,
+    "birth_date": "1996-03-31",
+    "nationality": "Spain"
+  }
+},
+{
+  "model": "team.player",
+  "pk": 17,
+  "fields": {
+    "name": "David Larrubia",
+    "slug": "david-larrubia",
+    "photo": "player_photo/25/05/15/David_Larrubia.png",
+    "pos": 3,
+    "height": 172,
+    "weight": 59,
+    "birth_date": "2002-04-20",
+    "nationality": "Spain"
+  }
+},
+{
+  "model": "team.player",
+  "pk": 18,
+  "fields": {
+    "name": "Manu N. Molina",
+    "slug": "manu-n-molina",
+    "photo": "player_photo/25/05/15/Manu_N._Molina.png",
+    "pos": 3,
+    "height": 175,
+    "weight": 72,
+    "birth_date": "1991-11-20",
+    "nationality": "Spain"
+  }
+},
+{
+  "model": "team.player",
+  "pk": 19,
+  "fields": {
+    "name": "Luis Miguel",
+    "slug": "luis-miguel",
+    "photo": "player_photo/25/05/15/Luis_Miguel.png",
+    "pos": 3,
+    "height": 180,
+    "weight": 76,
+    "birth_date": "1992-05-05",
+    "nationality": "Spain"
+  }
+},
+{
+  "model": "team.player",
+  "pk": 20,
+  "fields": {
+    "name": "Dani Lorenzo",
+    "slug": "dani-lorenzo",
+    "photo": "player_photo/25/05/15/Dani_Lorenzo.webp",
+    "pos": 3,
+    "height": 176,
+    "weight": 74,
+    "birth_date": "2003-04-05",
+    "nationality": "Spain"
+  }
+},
+{
+  "model": "team.player",
+  "pk": 21,
+  "fields": {
+    "name": "Luca Sangalli",
+    "slug": "luca-sangalli",
+    "photo": "player_photo/25/05/15/Luca_Sangalli.webp",
+    "pos": 3,
+    "height": 167,
+    "weight": 72,
+    "birth_date": "1995-02-10",
+    "nationality": "Spain"
+  }
+},
+{
+  "model": "team.player",
+  "pk": 22,
+  "fields": {
+    "name": "Izan Merino",
+    "slug": "izan-merino",
+    "photo": "player_photo/25/05/15/Izan_Merino.webp",
+    "pos": 3,
+    "height": 183,
+    "weight": 71,
+    "birth_date": "2006-04-15",
+    "nationality": "Spain"
+  }
+},
+{
+  "model": "team.player",
+  "pk": 23,
+  "fields": {
+    "name": "Aaron Ochoa",
+    "slug": "aaron-ochoa",
+    "photo": "player_photo/25/05/15/Aaron_Ochoa.webp",
+    "pos": 3,
+    "height": 167,
+    "weight": 62,
+    "birth_date": "2007-04-18",
+    "nationality": "Spain"
+  }
+},
+{
+  "model": "team.player",
+  "pk": 24,
+  "fields": {
+    "name": "Haitam Abaida",
+    "slug": "haitam-abaida",
+    "photo": "player_photo/25/05/15/Haitam_Abaida.webp",
+    "pos": 4,
+    "height": 172,
+    "weight": 70,
+    "birth_date": "2002-06-01",
+    "nationality": "Morocco"
+  }
+},
+{
+  "model": "team.player",
+  "pk": 25,
+  "fields": {
+    "name": "Roko Baturina",
+    "slug": "roko-baturina",
+    "photo": "player_photo/25/05/15/Roko_Baturina.webp",
+    "pos": 4,
+    "height": 187,
+    "weight": 82,
+    "birth_date": "2000-06-20",
+    "nationality": "Croatia"
+  }
+},
+{
+  "model": "team.player",
+  "pk": 26,
+  "fields": {
+    "name": "Kevin Medina",
+    "slug": "kevin-medina",
+    "photo": "player_photo/25/05/15/Kevin_Medina.png",
+    "pos": 4,
+    "height": 173,
+    "weight": 69,
+    "birth_date": "2001-02-26",
+    "nationality": "Spain"
+  }
+},
+{
+  "model": "team.player",
+  "pk": 27,
+  "fields": {
+    "name": "Dionisio Emanuel",
+    "slug": "dionisio-emanuel",
+    "photo": "player_photo/25/05/15/Dionisio_Emanuel.webp",
+    "pos": 4,
+    "height": 184,
+    "weight": 79,
+    "birth_date": "1989-12-21",
+    "nationality": "Spain"
+  }
+},
+{
+  "model": "team.player",
+  "pk": 28,
+  "fields": {
+    "name": "Yanis Rahmani",
+    "slug": "yanis-rahmani",
+    "photo": "player_photo/25/05/15/Yanis_Rahmani.webp",
+    "pos": 4,
+    "height": 179,
+    "weight": 73,
+    "birth_date": "1995-05-12",
+    "nationality": "France"
+  }
+},
+{
+  "model": "team.player",
+  "pk": 29,
+  "fields": {
+    "name": "Julen Lobete",
+    "slug": "julen-lobete",
+    "photo": "player_photo/25/05/15/Julen_Lobete.png",
+    "pos": 4,
+    "height": 178,
+    "weight": 71,
+    "birth_date": "2000-09-18",
+    "nationality": "Spain"
+  }
+},
+{
+  "model": "team.player",
+  "pk": 30,
+  "fields": {
+    "name": "Antonio Cordero",
+    "slug": "antonio-cordero",
+    "photo": "player_photo/25/05/15/Antonio_Cordero.webp",
+    "pos": 4,
+    "height": 178,
+    "weight": 70,
+    "birth_date": "2006-11-14",
+    "nationality": "Spain"
+  }
+},
+{
+  "model": "team.position",
+  "pk": 1,
+  "fields": {
+    "name": "Вратарь"
+  }
+},
+{
+  "model": "team.position",
+  "pk": 2,
+  "fields": {
+    "name": "Защитник"
+  }
+},
+{
+  "model": "team.position",
+  "pk": 3,
+  "fields": {
+    "name": "Полузащитник"
+  }
+},
+{
+  "model": "team.position",
+  "pk": 4,
+  "fields": {
+    "name": "Нападающий"
+  }
+},
+{
+  "model": "team.position",
+  "pk": 5,
+  "fields": {
+    "name": "Тренер"
+  }
+},
+{
+  "model": "events.match",
+  "pk": 1,
+  "fields": {
+    "opponent": "Зенит",
+    "logo": "team_photo/25/05/03/zenit.png",
+    "date": "2023-08-08",
+    "time": "19:00:00",
+    "slug": "zenit-fc-almaz-2023-08-08",
+    "score": "2 - 1",
+    "is_home": false,
+    "is_future": true
+  }
+},
+{
+  "model": "events.match",
+  "pk": 2,
+  "fields": {
+    "opponent": "Динамо",
+    "logo": "team_photo/25/05/15/Динамо.png",
+    "date": "2023-08-15",
+    "time": "18:00:00",
+    "slug": "fc-almaz-dinamo-2023-08-15",
+    "score": "2 - 1",
+    "is_home": true,
+    "is_future": true
+  }
+},
+{
+  "model": "events.match",
+  "pk": 3,
+  "fields": {
+    "opponent": "Спартак",
+    "logo": "team_photo/25/05/15/Спартак.png",
+    "date": "2023-08-22",
+    "time": "19:30:00",
+    "slug": "spartak-fc-almaz-2023-08-22",
+    "score": "1 - 3",
+    "is_home": false,
+    "is_future": true
+  }
+},
+{
+  "model": "events.match",
+  "pk": 4,
+  "fields": {
+    "opponent": "Локомотив",
+    "logo": "team_photo/25/05/15/Локомотив.png",
+    "date": "2023-09-12",
+    "time": "20:00:00",
+    "slug": "lokomotiv-fc-almaz-2023-09-12",
+    "score": "2 - 2",
+    "is_home": false,
+    "is_future": true
+  }
+},
+{
+  "model": "events.match",
+  "pk": 5,
+  "fields": {
+    "opponent": "Краснодар",
+    "logo": "team_photo/25/05/15/Краснодар.png",
+    "date": "2023-09-20",
+    "time": "18:45:00",
+    "slug": "fc-almaz-krasnodar-2023-09-20",
+    "score": "1 - 0",
+    "is_home": true,
+    "is_future": true
+  }
+},
+{
+  "model": "events.match",
+  "pk": 6,
+  "fields": {
+    "opponent": "ЦСКА",
+    "logo": "team_photo/25/05/15/Цска.png",
+    "date": "2023-10-01",
+    "time": "16:00:00",
+    "slug": "cska-fc-almaz-2023-10-01",
+    "score": "0 - 2",
+    "is_home": false,
+    "is_future": true
+  }
+},
+{
+  "model": "events.match",
+  "pk": 7,
+  "fields": {
+    "opponent": "Ростов",
+    "logo": "team_photo/25/05/15/Ростов.png",
+    "date": "2023-10-15",
+    "time": null,
+    "slug": "fc-almaz-rostov-2023-10-15",
+    "score": "3 - 1",
+    "is_home": true,
+    "is_future": true
+  }
+},
+{
+  "model": "events.match",
+  "pk": 8,
+  "fields": {
+    "opponent": "Урал",
+    "logo": "team_photo/25/05/15/Урал.png",
+    "date": "2023-10-22",
+    "time": "17:30:00",
+    "slug": "ural-fc-almaz-2023-10-22",
+    "score": "1 - 1",
+    "is_home": false,
+    "is_future": true
+  }
+},
+{
+  "model": "events.match",
+  "pk": 9,
+  "fields": {
+    "opponent": "Ахмат",
+    "logo": "team_photo/25/05/15/Ахмат.png",
+    "date": "2023-11-05",
+    "time": "18:00:00",
+    "slug": "fc-almaz-ahmat-2023-11-05",
+    "score": "2 - 0",
+    "is_home": true,
+    "is_future": true
+  }
+},
+{
+  "model": "events.match",
+  "pk": 10,
+  "fields": {
+    "opponent": "Сочи",
+    "logo": "team_photo/25/05/15/Сочи.png",
+    "date": "2023-11-12",
+    "time": "20:00:00",
+    "slug": "sochi-fc-almaz-2023-11-12",
+    "score": "1 - 3",
+    "is_home": false,
+    "is_future": true
+  }
+},
+{
+  "model": "events.match",
+  "pk": 11,
+  "fields": {
+    "opponent": "Рубин",
+    "logo": "team_photo/25/05/15/Рубин.png",
+    "date": "2023-12-01",
+    "time": "18:30:00",
+    "slug": "fc-almaz-rubin-2023-12-01",
+    "score": null,
+    "is_home": true,
+    "is_future": false
+  }
+},
+{
+  "model": "events.match",
+  "pk": 12,
+  "fields": {
+    "opponent": "Крылья Советов",
+    "logo": "team_photo/25/05/15/Крылья_Советов.png",
+    "date": "2023-12-10",
+    "time": "17:00:00",
+    "slug": "krylya-sovetov-fc-almaz-2023-12-10",
+    "score": null,
+    "is_home": false,
+    "is_future": false
+  }
+},
+{
+  "model": "events.match",
+  "pk": 13,
+  "fields": {
+    "opponent": "Оренбург",
+    "logo": "team_photo/25/05/15/Оренбург.png",
+    "date": "2024-02-15",
+    "time": "16:00:00",
+    "slug": "fc-almaz-orenburg-2024-02-15",
+    "score": null,
+    "is_home": true,
+    "is_future": false
+  }
+},
+{
+  "model": "events.match",
+  "pk": 14,
+  "fields": {
+    "opponent": "Факел",
+    "logo": "team_photo/25/05/15/Факел.png",
+    "date": "2024-02-22",
+    "time": "19:00:00",
+    "slug": "fakel-fc-almaz-2024-02-22",
+    "score": null,
+    "is_home": false,
+    "is_future": false
+  }
+},
+{
+  "model": "events.match",
+  "pk": 15,
+  "fields": {
+    "opponent": "Балтика",
+    "logo": "team_photo/25/05/15/Балтика.png",
+    "date": "2024-03-01",
+    "time": "18:30:00",
+    "slug": "fc-almaz-baltika-2024-03-01",
+    "score": null,
+    "is_home": true,
+    "is_future": false
+  }
+},
+{
+  "model": "events.match",
+  "pk": 16,
+  "fields": {
+    "opponent": "Пари НН",
+    "logo": "team_photo/25/05/15/ПариНН.png",
+    "date": "2024-03-10",
+    "time": "17:00:00",
+    "slug": "pari-nn-fc-almaz-2024-03-10",
+    "score": null,
+    "is_home": false,
+    "is_future": false
+  }
+},
+{
+  "model": "events.match",
+  "pk": 17,
+  "fields": {
+    "opponent": "Уфа",
+    "logo": "team_photo/25/05/15/Уфа.png",
+    "date": "2024-03-15",
+    "time": "18:00:00",
+    "slug": "fc-almaz-ufa-2024-03-15",
+    "score": null,
+    "is_home": true,
+    "is_future": false
+  }
+},
+{
+  "model": "events.match",
+  "pk": 18,
+  "fields": {
+    "opponent": "Торпедо",
+    "logo": "",
+    "date": "2024-03-22",
+    "time": "19:30:00",
+    "slug": "torpedo-fc-almaz-2024-03-22",
+    "score": null,
+    "is_home": false,
+    "is_future": false
+  }
+},
+{
+  "model": "events.match",
+  "pk": 19,
+  "fields": {
+    "opponent": "Химки",
+    "logo": "team_photo/25/05/15/Химки.png",
+    "date": "2024-04-05",
+    "time": "17:30:00",
+    "slug": "fc-almaz-himki-2024-04-05",
+    "score": null,
+    "is_home": true,
+    "is_future": false
+  }
+},
+{
+  "model": "events.match",
+  "pk": 20,
+  "fields": {
+    "opponent": "Акрон",
+    "logo": "",
+    "date": "2024-04-12",
+    "time": "20:00:00",
+    "slug": "akron-fc-almaz-2024-04-12",
+    "score": null,
+    "is_home": false,
+    "is_future": false
+  }
+},
+{
+  "model": "users.user",
+  "pk": 1,
+  "fields": {
+    "password": "pbkdf2_sha256$1000000$6LCij23OTIywCIxPcfOmyj$jJ4KDSDG7z26/tkc0sPo46sHMdYMd0oeAJ4eoD0zisk=",
+    "last_login": "2025-06-20T16:15:14.400Z",
+    "is_superuser": true,
+    "username": "root",
+    "first_name": "",
+    "last_name": "",
+    "email": "root@fcalmaz.com",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2025-05-04T08:46:58.704Z",
+    "photo": "",
+    "date_birth": null,
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "users.user",
+  "pk": 4,
+  "fields": {
+    "password": "pbkdf2_sha256$1000000$rU0G0eqY0NssnUF1VcysmL$bE/mEb0WltEmzErEEtSJO3btMccZ1YXItmZx+bLrEKI=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "fan123",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2025-05-17T14:23:56.146Z",
+    "photo": "",
+    "date_birth": null,
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "users.user",
+  "pk": 5,
+  "fields": {
+    "password": "pbkdf2_sha256$1000000$0P3mxWHfZzIafXDZ4ss6rJ$QRyURHt9LfC3hgC3iUKAJVCp2DRs+4RUzF4Eaz8tC4g=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "almaz_fan",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2025-05-17T14:24:29.553Z",
+    "photo": "",
+    "date_birth": null,
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "users.user",
+  "pk": 6,
+  "fields": {
+    "password": "pbkdf2_sha256$1000000$GDPW6eAQkQHRy77McOX5oT$0R8e9cxBMxVbPLFG2TEbeQU4PZ5JIhonXINx4lR+Xvk=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "old_school",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2025-05-17T14:25:30.622Z",
+    "photo": "",
+    "date_birth": null,
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "users.user",
+  "pk": 7,
+  "fields": {
+    "password": "pbkdf2_sha256$1000000$ahqRZY9lVq6JTMdDuTZZsK$0nKGOowlMI26Y4qxslIutq19B6tPP6Z+Qd0pfqN3yZk=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "defender4life",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2025-05-17T14:25:54.611Z",
+    "photo": "",
+    "date_birth": null,
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "users.user",
+  "pk": 8,
+  "fields": {
+    "password": "pbkdf2_sha256$1000000$U04Iop2DV1EjjLTnoLIyXy$nL2JxcJDiWFHSWlxqvk4q7D2sFqaHryjhaffQA6ocJA=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "tactical_genius",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2025-05-17T14:26:12.070Z",
+    "photo": "",
+    "date_birth": null,
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "users.user",
+  "pk": 9,
+  "fields": {
+    "password": "pbkdf2_sha256$1000000$3ddGEQ5VkjbgDG6ON5ZiL8$G7ua0TDA8bcBsEMfqP9mRX7st3WAFjPPQEFZ5QGpKBo=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "frustrated_fan",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2025-05-17T14:26:27.933Z",
+    "photo": "",
+    "date_birth": null,
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "users.user",
+  "pk": 10,
+  "fields": {
+    "password": "pbkdf2_sha256$1000000$X6JMgTVOJnsBa9DLpjONFM$weqqnl9xjbuEZXwzrOHuchBl7go383NTxVWxXuQOfKE=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "style_guru",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2025-05-17T14:27:56.624Z",
+    "photo": "",
+    "date_birth": null,
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "users.user",
+  "pk": 11,
+  "fields": {
+    "password": "pbkdf2_sha256$1000000$oRpZUFZqjEvtBdCUH2JyK2$gxijIObZAfpGet11WSRDla1J8OivhJ71Pdv1solliWc=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "merch_lover",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2025-05-17T14:28:19.202Z",
+    "photo": "",
+    "date_birth": null,
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "users.user",
+  "pk": 12,
+  "fields": {
+    "password": "pbkdf2_sha256$1000000$8cYSwsfGi5gl0dW0EsHB3f$r6Ejz7aqF6KOZ7opz5qpZo56g7qCvApyI4KW/K4CXuk=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "traditionalist",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2025-05-17T14:28:37.943Z",
+    "photo": "",
+    "date_birth": null,
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "users.user",
+  "pk": 13,
+  "fields": {
+    "password": "pbkdf2_sha256$1000000$sFDMdExNH7ZYijMhZ8rd7Y$ctIdtgoi4juqWPRgisQNmDVOtUNaneMAuJ2YrLXJpAY=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "ultras_leader",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2025-05-17T14:29:09.280Z",
+    "photo": "",
+    "date_birth": null,
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "users.user",
+  "pk": 14,
+  "fields": {
+    "password": "pbkdf2_sha256$1000000$ILhdVjEeTYUqQDiRfVURwD$DkyVwTjyLf00sZFSbrhmPn6h3fiB3JAN6MwUU7N7X5g=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "away_supporter",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2025-05-17T14:29:23.412Z",
+    "photo": "",
+    "date_birth": null,
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "users.user",
+  "pk": 15,
+  "fields": {
+    "password": "pbkdf2_sha256$1000000$MZ9L2FK3WV2RxBENW6RcrA$ideu3cbNw8wkmZ1ZNtpHNbw8ImiaJOJUk4JblCZbBPs=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "neutral_fan",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2025-05-17T14:29:36.893Z",
+    "photo": "",
+    "date_birth": null,
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "users.user",
+  "pk": 16,
+  "fields": {
+    "password": "pbkdf2_sha256$1000000$DX5ZvnIrjIL2yyGaj9XZt6$SYDDaMcNlyaJIio8A9K438XyqJkQbYX9HCelHmjHvZg=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "stadium_critic",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2025-05-17T14:29:49.750Z",
+    "photo": "",
+    "date_birth": null,
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "users.user",
+  "pk": 17,
+  "fields": {
+    "password": "pbkdf2_sha256$1000000$nQhvLcDJ3BID2uwMTIar8B$oB11VG+JYp5GcSNM094RQHtrcrQP9SyI5wtmbeOkWVM=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "foodie_fan",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2025-05-17T14:30:11.607Z",
+    "photo": "",
+    "date_birth": null,
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "users.user",
+  "pk": 18,
+  "fields": {
+    "password": "pbkdf2_sha256$1000000$7apLgTnTBnBuup8ucRdpi4$SMWzg0pDoRTea2Sr0Fuo0PgizEpOCKWASPRh64WLYU0=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "tech_geek",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2025-05-17T14:30:44.487Z",
+    "photo": "",
+    "date_birth": null,
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "users.user",
+  "pk": 19,
+  "fields": {
+    "password": "pbkdf2_sha256$1000000$DcmVp7fOH1YIlLnIlbWpGt$FlBOzz5Knk9pQQoip7ksZNg1dVZYmcQjCQKpK4I77Lo=",
+    "last_login": "2025-05-21T07:29:13.279Z",
+    "is_superuser": false,
+    "username": "Daniel",
+    "first_name": "Daniil",
+    "last_name": "Bogatyrevich",
+    "email": "bogatyrevicdaniil@gmail.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2025-05-17T14:41:16.614Z",
+    "photo": "user_photo/2025/05/17/кубок.jpg",
+    "date_birth": "2006-02-13T00:00:00Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "users.user",
+  "pk": 21,
+  "fields": {
+    "password": "!MSPTU0rtDH8jTxX7PmdxVgJkDiVKp78BxlqrTANU",
+    "last_login": "2025-06-25T16:32:17.012Z",
+    "is_superuser": false,
+    "username": "DanielBogaty",
+    "first_name": "Dani",
+    "last_name": "",
+    "email": "bogatyrevicdaniil@gmail.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2025-06-20T14:54:50.161Z",
+    "photo": "",
+    "date_birth": "2006-02-13T00:00:00Z",
+    "groups": [
+      1
+    ],
+    "user_permissions": []
+  }
+},
+{
+  "model": "users.user",
+  "pk": 22,
+  "fields": {
+    "password": "!zi0ennrd5EfPUfavAI8aDhbwDkLF3EJ8hHRHVOU6",
+    "last_login": "2025-06-25T12:05:42.383Z",
+    "is_superuser": false,
+    "username": "bogatyrevicdaniil",
+    "first_name": "Daniel",
+    "last_name": "95",
+    "email": "bogatyrevicdaniil@gmail.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2025-06-25T12:04:32.306Z",
+    "photo": "",
+    "date_birth": "2006-02-13T00:00:00Z",
+    "groups": [
+      1
+    ],
+    "user_permissions": []
+  }
+},
+{
+  "model": "forum.post",
+  "pk": 10,
+  "fields": {
+    "title": "Почему наш клуб не берет молодых игроков из академии",
+    "slug": "pochemu-nash-klub-ne-beret-molodyh-igrokov-iz-akademii-2025-05-17-1431366858290000-fan123",
+    "photo": "",
+    "content": "Смотрю на состав — сплошь легионеры и ветераны. Почему не даем шанс молодым? В прошлом сезоне юноши выиграли молодежное первенство, а в основе ни одного игрока!",
+    "time_create": "2025-05-17T14:31:36.685Z",
+    "time_update": "2025-05-17T14:32:35.597Z",
+    "is_published": true,
+    "author": 4
+  }
+},
+{
+  "model": "forum.post",
+  "pk": 11,
+  "fields": {
+    "title": "Купим ли мы наконец нормального опорника?",
+    "slug": "kupim-li-my-nakonec-normalnogo-opornika-2025-05-17-1434534444260000-defender4life",
+    "photo": "",
+    "content": "Наш центр защиты — дыра! Иванов вечно опаздывает, Сидоров боится единоборств. Когда уже менеджмент купит хоть одного крепкого защитника? Есть же варианты за разумные деньги!",
+    "time_create": "2025-05-17T14:34:53.444Z",
+    "time_update": "2025-05-17T14:34:53.455Z",
+    "is_published": true,
+    "author": 7
+  }
+},
+{
+  "model": "forum.post",
+  "pk": 12,
+  "fields": {
+    "title": "А вам нравится новая форма этого сезона?",
+    "slug": "a-vam-nravitsya-novaya-forma-rtogo-sezona-2025-05-17-1436149359670000-style_guru",
+    "photo": "",
+    "content": "Выглядит дешево, особенно эти желтые полосы на фоне синего. У «Динамо» дизайн в 10 раз круче. Наш клуб экономит на всём, даже на форме!",
+    "time_create": "2025-05-17T14:36:14.935Z",
+    "time_update": "2025-05-17T14:36:14.945Z",
+    "is_published": true,
+    "author": 10
+  }
+},
+{
+  "model": "forum.post",
+  "pk": 13,
+  "fields": {
+    "title": "Где была наша поддержка на выезде в Питере?",
+    "slug": "gde-byla-nasha-podderzhka-na-vyezde-v-pitere-2025-05-17-1437263343410000-ultras_leader",
+    "photo": "",
+    "content": "Всего 50 человек приехало! Это позор. В прошлом году было 200. Клуб даже автобусы не организовал, пришлось на поездах добираться. Как мы можем требовать от игроков борьбы, если сами их не поддерживаем?",
+    "time_create": "2025-05-17T14:37:26.334Z",
+    "time_update": "2025-05-17T14:37:26.344Z",
+    "is_published": true,
+    "author": 13
+  }
+},
+{
+  "model": "forum.post",
+  "pk": 14,
+  "fields": {
+    "title": "Предложения по улучшению стадиона",
+    "slug": "predlozheniya-po-uluchsheniyu-stadiona-2025-05-17-1438365267560000-stadium_critic",
+    "photo": "",
+    "content": "1) Ремонт туалетов — они в ужасном состоянии. 2) Wi-Fi, чтобы выкладывать фото в соцсети. 3) Больше точек с едой, а то очереди по 20 минут. Кто еще что добавит?",
+    "time_create": "2025-05-17T14:38:36.526Z",
+    "time_update": "2025-05-17T14:38:36.528Z",
+    "is_published": true,
+    "author": 16
+  }
+},
+{
+  "model": "forum.post",
+  "pk": 15,
+  "fields": {
+    "title": "Почему наш тренер упорно игнорирует Шатова?",
+    "slug": "pochemu-nash-trener-uporno-ignoriruet-shatova-2025-05-17-1445501052090000-daniel",
+    "photo": "post_photo/25/05/17/вопрос.jpg",
+    "content": "\"Шатов уже третий матч подряд сидит на скамейке, хотя в прошлой игре отдал 2 голевые передачи за 20 минут! Что он должен сделать, чтобы наконец выйти в старте? Может, тренер с ним лично не в ладах? Пора уже дать шанс игроку, который реально может разогнать атаку!",
+    "time_create": "2025-05-17T14:45:50.105Z",
+    "time_update": "2025-05-17T14:45:50.115Z",
+    "is_published": true,
+    "author": 19
+  }
+},
+{
+  "model": "forum.comment",
+  "pk": 11,
+  "fields": {
+    "post": 10,
+    "author": 5,
+    "content": "Полностью согласен! Петров из молодежки в 5 матчах забил 7 голов — почему его не пробуют в основе?",
+    "time_create": "2025-05-17T14:31:55.191Z"
+  }
+},
+{
+  "model": "forum.comment",
+  "pk": 12,
+  "fields": {
+    "post": 10,
+    "author": 6,
+    "content": "Молодежь не готова к давлению. Сейчас важнее бороться за верх таблицы, а не экспериментировать.",
+    "time_create": "2025-05-17T14:32:15.113Z"
+  }
+},
+{
+  "model": "forum.comment",
+  "pk": 13,
+  "fields": {
+    "post": 11,
+    "author": 8,
+    "content": "Слухи есть, что смотрим игрока из «Урала». Но пока только слухи.",
+    "time_create": "2025-05-17T14:35:26.862Z"
+  }
+},
+{
+  "model": "forum.comment",
+  "pk": 14,
+  "fields": {
+    "post": 11,
+    "author": 9,
+    "content": "Да хоть бы ветерана взяли, лишь бы не этот цирк с контратаками в каждой игре!",
+    "time_create": "2025-05-17T14:35:43.040Z"
+  }
+},
+{
+  "model": "forum.comment",
+  "pk": 15,
+  "fields": {
+    "post": 12,
+    "author": 11,
+    "content": "Я купил, и после первой стирки надписи потрескались. Позор!",
+    "time_create": "2025-05-17T14:36:45.751Z"
+  }
+},
+{
+  "model": "forum.comment",
+  "pk": 16,
+  "fields": {
+    "post": 12,
+    "author": 12,
+    "content": "Лучше бы вернули классику — простые синие футболки с белыми шортами.",
+    "time_create": "2025-05-17T14:36:57.826Z"
+  }
+},
+{
+  "model": "forum.comment",
+  "pk": 17,
+  "fields": {
+    "post": 13,
+    "author": 14,
+    "content": "Билеты стоили как ползарплаты! Клуб вообще не думает о фанатах.",
+    "time_create": "2025-05-17T14:37:50.248Z"
+  }
+},
+{
+  "model": "forum.comment",
+  "pk": 18,
+  "fields": {
+    "post": 13,
+    "author": 15,
+    "content": "Вы еще жалуетесь! В Питере -15 было, нормальные люди дома сидели.",
+    "time_create": "2025-05-17T14:38:02.398Z"
+  }
+},
+{
+  "model": "forum.comment",
+  "pk": 19,
+  "fields": {
+    "post": 14,
+    "author": 17,
+    "content": "Дайте нормальные бургеры, а не эти резиновые сосиски!",
+    "time_create": "2025-05-17T14:38:51.286Z"
+  }
+},
+{
+  "model": "forum.comment",
+  "pk": 20,
+  "fields": {
+    "post": 14,
+    "author": 18,
+    "content": "Wi-Fi? У нас даже табло работает через раз!",
+    "time_create": "2025-05-17T14:39:10.684Z"
+  }
+},
+{
+  "model": "forum.comment",
+  "pk": 22,
+  "fields": {
+    "post": 15,
+    "author": 19,
+    "content": "Тренер ставит на «рабочих лошадок» — тех, кто бегает 90 минут без отдыха. Шатов креативен, но в обороне не помогает. Вот и весь секрет. Хотя в матчах против оборонительных команд он точно нужен!",
+    "time_create": "2025-05-17T15:18:00.017Z"
+  }
+},
+{
+  "model": "social_django.usersocialauth",
+  "pk": 1,
+  "fields": {
+    "user": 21,
+    "provider": "github",
+    "uid": "147876988",
+    "extra_data": {
+      "auth_time": 1750869136,
+      "id": 147876988,
+      "expires": null,
+      "login": "DanielBogaty",
+      "refresh_token": null,
+      "access_token": "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",
+      "token_type": "bearer"
+    },
+    "created": "2025-06-20T14:54:50.169Z",
+    "modified": "2025-06-25T16:32:16.969Z"
+  }
+},
+{
+  "model": "social_django.usersocialauth",
+  "pk": 2,
+  "fields": {
+    "user": 22,
+    "provider": "google-oauth2",
+    "uid": "bogatyrevicdaniil@gmail.com",
+    "extra_data": {
+      "auth_time": 1750853142,
+      "expires": 3598,
+      "token_type": "Bearer",
+      "access_token": "ya29.a0AS3H6NwPr55AWPRg3QX_z85WOcwgGkV8flU-AMQ-ivSBAemqvYTkGNmRzx126a9esOlccskXxuXIfOS1J8z8Ow3BvmSUBLKy4u6fFVmUuicE_7408svEsnMkCKblgDE06lvtrjTz8kttaV1MWTCm91YLsEJ3FZHQaExoQOysaCgYKAT0SARUSFQHGX2MiqQi0GsALyveevh1dvtKiPQ0175"
+    },
+    "created": "2025-06-25T12:04:32.329Z",
+    "modified": "2025-06-25T12:05:42.350Z"
+  }
+}
+]
