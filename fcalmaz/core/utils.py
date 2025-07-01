@@ -5,6 +5,7 @@ menu = [
     {'title':'Расписание', 'url_name':'events:schedule'},
     {'title':'О нас', 'url_name':'about'},
     {'title':'Форум', 'url_name':'forum:forum_home'},
+    {'title':'Обратная связь', 'url_name':'contact'},
 ]
 
 

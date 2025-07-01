@@ -1,10 +1,14 @@
 from django.shortcuts import render
 from django.http import HttpResponseNotFound
-from django.views.generic import ListView, DetailView, TemplateView
+from django.views.generic import ListView, DetailView, TemplateView, FormView
+from django.contrib.auth.mixins import LoginRequiredMixin
 from django.shortcuts import get_object_or_404
+from django.urls import reverse_lazy
+from django.core.cache import cache
 
 from .utils import DataMixin
 from .models import News
+from .forms import ContactForm
 
 
 class HomePage(DataMixin, ListView):
@@ -13,7 +17,11 @@ class HomePage(DataMixin, ListView):
     context_object_name = 'news'
 
     def get_queryset(self):
-        return News.objects.all()
+        n_lst = cache.get("news_posts")
+        if not n_lst:
+            n_lst = News.objects.all()
+            cache.set("news_posts", n_lst, 60)
+        return n_lst
     
     def get_context_data(self, **kwargs):
         context = super().get_context_data(**kwargs)
@@ -44,3 +52,14 @@ class AboutClub(DataMixin, TemplateView):
 
 def page_not_found(request, exception):
     return HttpResponseNotFound("<h1>Страница не найдена</h1>")
+
+
+class ContactFormView(LoginRequiredMixin, DataMixin, FormView):
+    template_name = 'core/contact.html'
+    title_page = 'Контакты'
+    form_class = ContactForm
+    success_url = reverse_lazy('home')
+
+    def form_valid(self, form):
+        print(form.cleaned_data)
+        return super().form_valid(form)

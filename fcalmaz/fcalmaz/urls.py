@@ -12,6 +12,7 @@ urlpatterns = [
     path('users/', include('users.urls', namespace='users')),
     path('forum/', include('forum.urls', namespace='forum')),
     path('social-auth/', include('social_django.urls', namespace="social")),
+    path('captcha/', include('captcha.urls')),
 ]
 
 
